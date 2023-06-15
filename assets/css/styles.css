@@ -81,21 +81,25 @@
   border-radius: 10px;
  }
 
-.bubble-message, .bubble {
+.bubble-message, .bubble, .bub {
 	background-color: #fff;
-	border-radius: 10px;
+	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	position: relative;
 	display: inline-block;
   }
   .bubble{
 	padding: 20px 50px 0px  20px;
+	margin-right: 20px;
 	
   }
   .bubble ul li {
 	color: #5e5e5e;
+	
   }
-
+  .bubble ul li:hover{
+	color: #DE7A1E;
+  }
 
   .bubble-message::after {
 	content: "";
@@ -107,6 +111,7 @@
 	border-style: solid;
 	border-color: #fff transparent transparent ;
   }
+  
   .newsletter-title{
 	color: #111111;
 	font-family: 'Poppins', sans-serif;
@@ -133,9 +138,10 @@
     border-radius: 10px;
  }
  .newsletter-container{
-	margin-top: 110px; 
-	margin-left: 110px;
+	
+	margin-left: 90px;
   }
+  
   .newsletter-container .card h3{
 	font-weight: bold;
 	color: #111111;
@@ -213,9 +219,29 @@
 	
   }
   
+  .rejoindre-link {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #bb620f;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 18px;
+	text-align: center;
+	width: 300px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	
+  }
   
+  .rejoindre-link:hover {
+	background-color: hsl(29, 96%, 61%);
+	color: #fff;
+	text-decoration: none;
+  }
+
+
   button[type=submit] {
-    background: #d9534f;
+    background: #DE7A1E;
     border: 0;
     padding: 10px 30px 12px 30px;
     color: #fff;
@@ -273,7 +299,7 @@ margin-bottom: 10px;
 }
 
 .section{
-	margin-top: 200px;
+	margin-top: 170px;
 }
 .top{
 margin-top: 70px;
