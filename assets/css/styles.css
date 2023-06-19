@@ -232,7 +232,9 @@
 	margin-bottom: 10px;
 	
   }
-  
+  .rejoindre-link a{
+text-decoration: none;
+  }
   .rejoindre-link:hover {
 	background-color: hsl(29, 96%, 61%);
 	color: #fff;
