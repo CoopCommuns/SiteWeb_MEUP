@@ -25,7 +25,7 @@
                               <th scope="col">Type</th>
                               <th scope="col">Description</th>
                               <th scope="col">Nombre d'événements</th>
-                              
+                              <th scope="col">Details</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -33,7 +33,7 @@
                               <td>Atelier bricolage</td>
                               <td>Aménagement du Tiers-lieux de la MEUP, <br> accueil bénévoles</td>
                               <td>4</td>
-                              
+                              <td></td>
                             </tr>
                             <tr>
                               <td>Atelier Repair Café </td>
@@ -41,6 +41,7 @@
                                 animé par des bénévoles 
                                 </td>
                               <td>2</td>
+                              <td></td>
                               
                               
                             </tr>
@@ -48,7 +49,7 @@
                               <td>Chantier participatif</td>
                               <td>Aménagement et permaculture terrain 6, <br> rue du Potager</td>
                               <td>2</td>
-                              
+                              <td></td>
                               
                             </tr>
                            
@@ -58,12 +59,12 @@
                                     6 rue du potager
                                     </td>
                               <td>2</td>
-                              
+                              <td></td>
                             <tr>
                                 <td>Jeux Apéro coopératif </td>
                                 <td>Jeux apéro, apéritif <br> dinatoire partagé - 6  <br>rue du potager </td>
                                 <td>1</td>
-                                
+                                <td></td>
                                 
                               </tr>
                             
@@ -74,7 +75,7 @@
                                     6, rue du potager
                                     </td>
                               <td>1</td>
-                              
+                              <td></td>
                              
                             </tr>
                            
@@ -82,21 +83,21 @@
                               <td>septembre</td>
                               <td>Forum des associations <br> Ville Paray-Vieille-Poste</td>
                               <td></td>
-                              
+                              <td></td>
                               
                             </tr>
                             <tr>
                               <td></td>
                               <td>Journées du patrimoine </td>
                               <td>Aménagement et permaculture terrain 6, rue du Potager</td>
-                              
+                              <td></td>
                               
                             </tr>
                             <tr>
                               <td>Samedi 23 septembre</td>
                               <td>Vide grenier et mini forum ESS </td>
                               <td>En attente accord de la Ville</td>
-                              
+                              <td><a href="Detail.php">Plus de details</a></td>
                              
                             </tr>
                             

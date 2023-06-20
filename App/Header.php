@@ -14,14 +14,14 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item pe-7">
-							<a class="nav-link active" aria-current="page" href="#">Evennements</a>
+							<a class="nav-link active" aria-current="page" href="index.php#activités">Évènements</a>
 						</li>
 						<li class="nav-item pe-7">
-							<a class="nav-link" href="#">Activités</a>
+							<a class="nav-link" href="index.php#activités">Activités</a>
 						</li>
 						
 						<li class="nav-item pe-7">
-							<a class="nav-link" href="About.php">Qui sommes Nous</a>
+							<a class="nav-link" href="About.php">Qui sommes-nous ?</a>
 						</li>
                         <li class="nav-item pe-7">
 							<a class="nav-link" href="index.php#contact">Nous contacter</a>

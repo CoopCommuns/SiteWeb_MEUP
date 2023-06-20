@@ -80,7 +80,7 @@
                         <div class="col-md-5 fixed-content">
                           <div class="bubble">
                             <h4 class="newsletter-title">Nos activités</h4>
-                            <ul>
+                            <ul class="testimonial">
                               <a href="#id"><li>Rejoindre le Club de la coopération  économique et social </li></a>
                               <a href="#"><li>Rejoindre la Coopérative d’Activité  et d’emploi </li></a>
                               <a href="#"><li>Voir nos formations</li></a>
@@ -91,7 +91,7 @@
                           </div> <br><br>
                           <div class="bubble">
                             <h4 class="newsletter-title">Evenements</h4>
-                            <ul>
+                            <ul class="testimonial">
                               <a href="PageJuin.php"><li>Juin 2023</li></a>
                               <a href="PageSeptembre.php"><li>Septembre 2023 </li></a>
                             

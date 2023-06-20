@@ -17,7 +17,7 @@
 									<div class="row">
 										<div class="col-md-7 ">
 											
-											<div class="row bub" >
+											<div class="row" >
 												<h3 style="margin-top:10px;">Le Restaurant Café coopératif de La MEUP</h3>
 												<div class="col-lg-6 ">
 												   <img src="../assets/img/OIP0.jpg" alt="Témoignage 2" class=" bub" >
@@ -66,12 +66,12 @@
 											</div>
 
 										</div>
-										
+												
 
-										<div class="col-md-5 fixed-content">
-											<div class="bubble">
+										<div class="col-md-5 fixed-content " >
+											<div class="bubble" id="activités">
 												<h4 class="newsletter-title">Nos activités</h4>
-												<ul>
+												<ul class="testimonial">
 													<a href="#id"><li>Rejoindre le Club de la coopération  économique et social </li></a>
 													<a href="#"><li>Rejoindre la Coopérative d’Activité  et d’emploi </li></a>
 													<a href="#"><li>Voir nos formations</li></a>
@@ -81,8 +81,8 @@
 												</ul>
 											 <br>
 											
-												<h4 class="newsletter-title">Evenements</h4>
-												<ul>
+												<h4 class="newsletter-title" id="évenement">Evenements</h4>
+												<ul class="testimonial">
 													<a href="PageJuin.php"><li>Juin 2023</li></a>
 													<a href="PageSeptembre.php"><li>Septembre 2023 </li></a>
 												
@@ -101,7 +101,7 @@
 													Vous souhaitez soutenir et vous investi pour 
 													les transitions démocratique, écologique, sociale et alimentaire rejoignez nous :  
 												</p>
-												<ul>
+												<ul class="testimonial">
 													<li>Hello Asso</li>
 													<li>Consulter les statuts </li>
 													<li>Consulter le règlement intérieur</li>
@@ -156,7 +156,7 @@
 		</section>		 
 
 		 <!-- ======= Contact Section ======= -->
-		 <section id="contact" class="contact">
+		 <section id="contact" class="contact section">
 			<div class="container" data-aos="fade-up">
 	  
 			  <div class="section-title">
