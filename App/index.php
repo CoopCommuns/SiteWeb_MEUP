@@ -8,8 +8,8 @@
 		<title>MEUP</title>
     </head>
     <body>
-	<?php include 'Header.php';?>
-
+		<?php include 'Header.php';?>
+		<?php include 'Carrousel.php';?>
 		<section  class="section">
 			<div class=" newsletter-container">
 								<div class="card  border-0 rounded-0">
@@ -17,17 +17,17 @@
 									<div class="row">
 										<div class="col-md-7 ">
 											
-											<div class="row" >
+											<div class="row " >
 												<h3 style="margin-top:10px;">Le Restaurant Café coopératif de La MEUP</h3>
-												<div class="col-lg-6 ">
-												   <img src="../assets/img/OIP0.jpg" alt="Témoignage 2" class=" bub" >
+												<div class="col-lg-6  testimonial-item ">
+												   <img src="../assets/img/20220608_143013.jpg">
 												</div>
-												<div class="col-lg-6 ">
-												   <img src="../assets/img/OIP0.jpg" alt="Témoignage 2" class=" bub" >
+												<div class="col-lg-6  testimonial-item ">
+												   <img src="../assets/img/IMG_1325.jpg" >
 												</div>
 											</div> <br> <br>
-											<div class=" bub">
-												<p>
+											<div class="newsletter-text"> 
+												<p >
 												Le Restaurant café coopératif de la Maison de l’écologie urbaine et pratique est un tiers lieu alimentaire, qui s’inscrit dans un programme d’urbanisme transitoire à la Ferme de Contin de Paray-Vieille-Poste.
                                                 D’une capacité de 50-70 couverts par service, il propose une offre de restauration de qualité, à des coûts accessibles, et un dispositif solidaire de plats suspendus.
 

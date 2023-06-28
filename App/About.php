@@ -10,6 +10,7 @@
   </head>
   <body>
        <?php include 'Header.php';?>
+       <?php include 'Carrousel.php';?>
         
         <section  class="section">
             <div class="mb-10 newsletter-container ">
@@ -133,7 +134,7 @@
                                   <div class="col-md-3 ">
                                     <div class="testimonial-item">
                                         <div class="img-container">
-                                        <img src="../assets/img/OIP0.jpg" alt="Témoignage 2" class="d-block img" >
+                                        <img src="../assets/img/OIP0.jpg"  class="d-block img" >
                                         </div>
                                         <h5 class="title">Baptiste POULAIN</h5>
                                         <p class="testimonial-description">
@@ -151,7 +152,7 @@
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
                                         <div class="img-container">
-                                        <img src="../assets/img/OIP0.jpg" alt="Témoignage 2" class=" img" >
+                                        <img src="../assets/img/OIP0.jpg" class=" img" >
                                         </div>
                                         <h5 class="title">Sébastien MOIREAU </h5>
                                         <p class="testimonial-description">
@@ -165,7 +166,7 @@
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
                                         <div class="img-container">
-                                        <img src="../assets/img/OIP0.jpg" alt="Témoignage 2" class=" img" >
+                                        <img src="../assets/img/OIP0.jpg"  class=" img" >
                                         </div>
                                         <h5 class="title">Béatrice ALBARET</h5>
                                         <p class="testimonial-description">

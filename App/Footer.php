@@ -14,7 +14,7 @@
                   <ul class="list-unstyled nav-links mb-5">
                     <li><a href="#">Qui sommes-nous ?</a></li>
                     <li><a href="#">Nos Partenaires</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Nous Contacter</a></li>
                   </ul>
       
                   <div class="social mb-4">
