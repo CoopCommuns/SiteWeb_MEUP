@@ -17,8 +17,8 @@
 	background-size: 100%;
 	font-family: 'Merriweather', serif;
 	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
-	z-index: 99;
-	height: 110px;
+	
+	height: 70px;
 	
 }
 
@@ -96,11 +96,12 @@
   }
   .newsletter-text{
 	font-family: 'arial';
-	font-size: 16px;
-	padding:15px 20px 2px 30px;
+	font-size: 20px;
+	padding:15px 20px 10px 40px;
 	color: #5e5e5e;
 	width: 100%;
-
+	position: relative;
+	margin-top: 30px;
   }
   .bubble-message{
 	width: 400px; 
@@ -184,17 +185,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100%;
+	height: 50%;
 	border-radius: 10px;
+	margin: 0px 40px 0px 40px;
   }
   
   
-  .testimonial-item img {
+  .testimonial-item .img {
 	border-radius: 20px;
     padding: 10px;
-	height: auto;
-	width: 100%;
-
+	height: 150px;
+	width: 280px;
+    
   
   }
   .testimonial-item {
@@ -204,11 +206,14 @@
 	box-shadow: 0 0 15px rgb(0 0 0 / 10%);
 	display: flex;
 	flex-direction: column; 
-	
+	margin: 0px 10px 10px 10px;
 	align-items: center; 
 	
   }
- 
+ .table-secondary{
+	margin: 0px 10px 10px 10px;
+	display: flex;
+ }
   .testimonial-description {
 	padding-left: 15px;;
 	padding-top: 10px, 0,0;
@@ -219,7 +224,7 @@
   }
   
   .testimonial-section {
-	background-color: #F9F1F0;
+	background-color: #f4ebe4;
 	padding: 10px;
 	border-radius: 10px;
 	
@@ -358,8 +363,8 @@ footer{
     width: 330px;
     max-width: 330px;
 	padding-left: 26px;
-    margin-top: 100px;
-	
+    margin-top: 200px;
+	margin-left: 30px;
 }
 
 
@@ -471,16 +476,33 @@ thead {
   }
   
   .photo-container img {
-	width: 90px; 
+	width: 80px; 
 	height: 60px; 
 	margin-right: 10px; 
 	
   }
-  .logo{
-	width: 80px; 
-	height: 60px; 
+  .photos-container {
+	margin-left: 40px;
+	background-color: #f4ebe4;
 	border-radius: 10px;
+	padding: 40px 40px 40px 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	position: relative;
+	display: inline-block;
+	 
   }
+ 
+  .photos-container img {
+	width: 310px; 
+	height: 190px;
+	border-radius: 20px;
+	
+  }
+ .logo{
+	width: 80px;
+	height: 60px;
+	border-radius: 10px;
+ }
   .class{
 	background-color: #c4b2a2;
 	border-radius: 20px;
@@ -491,4 +513,11 @@ thead {
 }
 i{
 	text-align: center;
+}
+.table-rounded{
+	border-radius: 10px;
+}
+.height{
+	height: 50px;
+	
 }

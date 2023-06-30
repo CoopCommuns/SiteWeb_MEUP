@@ -9,25 +9,28 @@
 </head>
 <body>
 <?php include 'Header.php';?>
-<section class="intro">
-        <div class="bg-image h-100" style="background-color: #f5f7fa;">
+<section class="intro ">
+        <div class="bg-image h-100" >
           <div class="mask d-flex align-items-center h-100">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-12">
                   <div class="card_table">
                     <div class="card-body p-0">
-                      <div class="table-responsive table-scroll" data-mdb-perfect-scrollbar="true" style="position: relative; height: 700px">
-                        <table class="table table-striped mb-0">
-                          <thead style="background-color: #141517;">
+                      <div class="table-responsive table-rounded"  >
+                        <table class="table table-striped mb-0  ">
+                          <thead style="background-color: #141517;" class="height">
+                              <tr>
+                                <th scope="col">Type</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Nombre d'événements</th>
+                                <th scope="col">Details</th>
+                              </tr>
+
                             <tr>
-                              
-                              <th scope="col">Type</th>
-                              <th scope="col">Description</th>
-                              <th scope="col">Nombre d'événements</th>
-                              <th scope="col">Details</th>
-                            </tr>
+                            
                           </thead>
+
                           <tbody>
                             <tr>
                               <td>Atelier bricolage</td>

@@ -30,24 +30,10 @@
                             Un temps d’échange et de rencontre pour celles et ceux en quête <br> de l’accélération des transitions 
                             démocratique <br> - écologique - économique - sociale et alimentaires
                             </p>
-                            <div class="class mb-4">
-                                <h3 class="pt-4">Vous souhaitez : </h3>
-                                <div class="row custom-row">
-                                    <div class="col-md-6 overlay ">
-                                        <h2>Participer au Forum de l’ESS, des innovations, de la formation et de l’emploi</h2>
-                                        <i >Accès place du docteur schweitzer <br> (91550 Paray-Vieille-Poste ) </i>
-                                    </div>
-                                    <div class="col-md-6 ">
-                                        <h2>Réserver votre emplacement au vide Grenier</h2>
-                                        <i >Accès rue de l’église (91550 Paray-Vieille-Poste)  </i>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
 
-                        <div class="newsletter-text mt-3">
-                            
-                        </div>
+                        
 
                         <div class="newsletter-text mt-4 mb-4">
                             <div>
@@ -104,55 +90,86 @@
                                 </div>
                             </div>
                         </div> 
+                      
                     </div>
-                    <div class="col-md-6">
-                        <div class="bubble ">
-                            <ul class="testimonial">
-                                <li>
-                                1 place du docteur schweitzer 91550 Paray-Vieille-Poste 
-                                </li>
-                                <li class="testimonial">
-                                    <b>Accès : </b>
-                                    Voiture : A6 sortie - N 7 Aéroport Orly 
-                                </li>
-                                <li class="testimonial">
-                                        <b>TRAM T7 : </b>
-                                        Athis Mons porte de l’Essonne
-                                </li>
-                                <li class="testimonial">
-                                        10 minutes à pied
-                                        ou <br> <br>
 
-                                        Bus passant à proximité : 191-399-480-486
+                    <div class="col-md-6  fixed-content ">
+                        <div class="bubble  mt-5">
+                                <ul class="testimonial">
+                                    <li>
+                                    1 place du docteur schweitzer 91550 Paray-Vieille-Poste 
+                                    </li>
+                                    <li class="testimonial">
+                                        <b>Accès : </b>
+                                        Voiture : A6 sortie - N 7 Aéroport Orly 
+                                    </li>
+                                    <li class="testimonial">
+                                            <b>TRAM T7 : </b>
+                                            Athis Mons porte de l’Essonne
+                                    </li>
+                                    <li class="testimonial">
+                                            10 minutes à pied
+                                            ou <br> <br>
 
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                               
-                               <div>
-                                   <h3 class="tittle_row">
-                                     Programme du FORUM de l’ESS, des innovations, <br> de la formation et de l’emploi
-                                   </h3>
+                                            Bus passant à proximité : 191-399-480-486
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bubble  mt-5">
+									<h4 class="newsletter-title">Participer au Forum de l’ESS, des innovations,
+                                    de la formation et de l’emploi</h4>
+									<p class="testimonial">
+									Accès place du docteur schweitzer (91550 Paray-Vieille-Poste ) 
+									</p>
+									<div class="Rejoindre">
+										<a href="#" class="rejoindre-link">Rejoindre</a>
+									</div>
+							</div>
+                            <div class="bubble mt-4">
+									<h4 class="newsletter-title">Réserver votre emplacement au vide Grenier</h4>
+									<p class="testimonial">
+                                       Accès rue de l’église (91550 Paray-Vieille-Poste) 
+									</p>
+									<div class="Rejoindre">
+										<a href="#" class="rejoindre-link">Rejoindre</a>
+									</div>
+							</div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row justify-content-center">
+                <h3 class="tittle_row">Programme du FORUM de l’ESS, des innovations, <br> de la formation et de l’emploi</h3>
                                </div>
-                               <div class="table-responsive table-scroll" data-mdb-perfect-scrollbar="true" style="position: relative; height: 700px">
-                                   <table class="table table-striped mb-0">
-                                   <thead style="background-color: #141517;">
+                               <div class="bg-image h-90" >
+                            <div class="mask d-flex align-items-center h-90">
+                                <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                    <div class="card_table">
+                                        <div class="card-body p-0">
+                               <div class="table-responsive table-rounded"  >
+                                   <table class="table table-striped mb-5">
+                                   <thead style="background-color: #141517;" class="height">
                                        <tr>
-                                       <th scope="col"></th>
-                                       <th scope="col"></th>
-                                       <th scope="col"></th>
-                                       <th scope="col"></th>
-                                       <th scope="col"></th>
-                                       <th scope="col"></th>
-                                       <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
                                        </tr>
                                    </thead>
                                    <tbody>
                                        <tr>
                                        <td><img src="../assets/img/LOGO La MEUP 1.png" alt="Photo 1" class="logo"> </td>
-                                       <td>Fresque du Climat 
-                                            Proposé par la MEUP et l’Association la Fresque du Climat
+                                       <td>Fresque du Climat br
+                                            Proposé par la MEUP <br> et l’Association la Fresque du Climat
                                         </td>
                                         <td>Début : 10h00          
 
@@ -234,14 +251,17 @@
                                    
                                        
                                    </tbody>
-                                   </table>
-                               </div>
-                           
-                       </div>
-                    </div>
+                                </table> 
+           </div>      
+           </div>  
+           </div>  
+           </div>  
+           </div>  
+           </div>  
+           </div>              
                 </div>
-            </div>
-        </div>
+        </div>                    
+                              
     </section>                           
     <?php include 'Footer.php';?>
 </body>

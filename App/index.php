@@ -12,21 +12,20 @@
 		<?php include 'Carrousel.php';?>
 		<section  class="section">
 			<div class=" newsletter-container">
-								<div class="card  border-0 rounded-0">
-								<h3 class="tittle_row">Les Projets à  Ferme de Contin</h3>
-									<div class="row">
-										<div class="col-md-7 ">
-											
-											<div class="row " >
+							<div class="card  border-0 rounded-0">
+								
+									<div class="row ">
+										<div class="col-md-7 newsletter-text">
+										<h3 class="tittle_row">Les Projets à  Ferme de Contin</h3>
+											<div  >
 												<h3 style="margin-top:10px;">Le Restaurant Café coopératif de La MEUP</h3>
-												<div class="col-lg-6  testimonial-item ">
-												   <img src="../assets/img/20220608_143013.jpg">
+												<div class="photos-container mt-4 mb-4 " >
+													<img src="../assets/img/IMG_1325.jpg" alt="Photo 1" class="logo" > 
+													<img src="../assets/img/20220608_143013.jpg" alt="Photo 2" class="logo " style="margin-left:40px" >
 												</div>
-												<div class="col-lg-6  testimonial-item ">
-												   <img src="../assets/img/IMG_1325.jpg" >
-												</div>
-											</div> <br> <br>
-											<div class="newsletter-text"> 
+											</div>
+											
+											<div class=" mt-5 pl-4"> 
 												<p >
 												Le Restaurant café coopératif de la Maison de l’écologie urbaine et pratique est un tiers lieu alimentaire, qui s’inscrit dans un programme d’urbanisme transitoire à la Ferme de Contin de Paray-Vieille-Poste.
                                                 D’une capacité de 50-70 couverts par service, il propose une offre de restauration de qualité, à des coûts accessibles, et un dispositif solidaire de plats suspendus.
@@ -87,9 +86,9 @@
 													<a href="PageSeptembre.php"><li>Septembre 2023 </li></a>
 												
 												</ul>
-											</div> <br><br>
+											</div> 
 
-											<div class="bubble ">
+											<div class="bubble mt-5">
 												<h4 class="newsletter-title">Rejoindre l’association</h4>
 												<p class="testimonial">
 													Siège de la participation Citoyenne l’association de la Maison de l’écologie 
@@ -109,9 +108,9 @@
 												<div class="Rejoindre">
 													<a href="#" class="rejoindre-link">Rejoindre</a>
 												</div>
-											</div> <br><br>
+											</div> 
 
-											<div class="top">
+											<div class="top mt-5">
 												<form action="#" method="post" >
 													<div class="form-group">
 														<div class="bubble-message">
@@ -186,7 +185,7 @@
 	  
 				<div class="col-lg-8 mt-5 mt-lg-0" id="contact">
 	  
-				  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+				  <form action="#" method="#" role="form" class="php-email-form">
 					<div class="row">
 					  <div class="col-md-6 form-group">
 						<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>

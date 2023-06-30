@@ -10,13 +10,13 @@
   </head>
   <body>
        <?php include 'Header.php';?>
-       <?php include 'Carrousel.php';?>
+      
         
         <section  class="section">
             <div class="mb-10 newsletter-container ">
                 <div class="card mb-3 border-0 rounded-0">
                     <div class="row">
-                        <div class="col-md-7 bubble">
+                        <div class="col-md-7 bubble newsletter-text">
                             <h3>Préambule </h3>
                             <p>“Le tiers lieu de la MEUP s’inspire des mouvements coopératifs des XIXème et XXème <br>
                                 siècle et du modèle de la Bellevilloise de 1877.</p>
@@ -125,7 +125,7 @@
             </div>
     </section>
             <div class="container_slider">
-                <div class="testimonial-section  p-4">
+                <div class="testimonial-section  mt-5">
                     <h3 class="section-title text-center font-weight-bold">L’équipe des permanents de la MEUP</h3>
                     <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner testimonial-container">
@@ -151,7 +151,7 @@
                                   </div>
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
-                                        <div class="img-container">
+                                      <div class="img-container">
                                         <img src="../assets/img/OIP0.jpg" class=" img" >
                                         </div>
                                         <h5 class="title">Sébastien MOIREAU </h5>
@@ -165,16 +165,16 @@
                                   </div>
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
-                                        <div class="img-container">
-                                        <img src="../assets/img/OIP0.jpg"  class=" img" >
-                                        </div>
-                                        <h5 class="title">Béatrice ALBARET</h5>
-                                        <p class="testimonial-description">
-                                          Co-fondatrice de la MEUP. Secrétaire de l’association de la MEUP. 
-                                          + de 15 ans d’expérience dans le médico-social. Artiste plasticienne engagée.
-                                          Co-fondatrice du supermarché coopératif Les Grains de Sel (+1700 sociétaires)
-                                          et de Coop Communs opérateur du PTCE pour une SSA.
-                                        </p>
+                                      <div class="img-container">
+                                          <img src="../assets/img/OIP0.jpg"  class=" img" >
+                                          </div>
+                                          <h5 class="title">Béatrice ALBARET</h5>
+                                          <p class="testimonial-description">
+                                            Co-fondatrice de la MEUP. Secrétaire de l’association de la MEUP. 
+                                            + de 15 ans d’expérience dans le médico-social. Artiste plasticienne engagée.
+                                            Co-fondatrice du supermarché coopératif Les Grains de Sel (+1700 sociétaires)
+                                            et de Coop Communs opérateur du PTCE pour une SSA.
+                                          </p>
                             
                                     </div>
                                   </div>
