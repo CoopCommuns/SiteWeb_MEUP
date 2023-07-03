@@ -2,10 +2,10 @@
 <html>
 <head>
   <title>Ajouter un événement</title>
-  <?php include 'lien.php';?>
+  <?php include 'Composants/lien.php';?>
 </head>
 <body>
-<?php include 'Header.php';?>
+<?php include 'Composants/Header.php';?>
 
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="col-lg-8">
@@ -31,6 +31,6 @@
     </div>
   </div>
 
-  <?php include 'Footer.php';?>
+  <?php include 'Composants/Footer.php';?>
 </body>
 </html>

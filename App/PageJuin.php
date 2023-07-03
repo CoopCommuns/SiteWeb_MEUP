@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include 'lien.php';?>
+    <?php include 'Composants/lien.php';?>
 
     <title>Document</title>
 </head>
 <body>
-     <?php include 'Header.php';?>
+     <?php include 'Composants/Header.php';?>
     <section class="intro">
         <div class="bg-image " >
           <div class="mask d-flex align-items-center">
@@ -134,6 +134,6 @@
           </div>
         </div>
       </section>
-      <?php include 'Footer.php';?>
+      <?php include 'Composants/Footer.php';?>
 </body>
 </html>

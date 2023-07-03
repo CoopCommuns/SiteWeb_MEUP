@@ -4,12 +4,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<?php include 'lien.php';?>
+		<?php include 'Composants/lien.php';?>
 		<title>MEUP</title>
     </head>
     <body>
-		<?php include 'Header.php';?>
-		<?php include 'Carrousel.php';?>
+		<?php include 'Composants/Header.php';?>
+		<?php include 'Composants/Carrousel.php';?>
 		<section  class="section">
 			<div class=" newsletter-container">
 							<div class="card  border-0 rounded-0">
@@ -213,6 +213,6 @@
 		  </section><!-- End Contact Section -->
 
 		  
-		  <?php include 'Footer.php';?>
+		  <?php include 'Composants/Footer.php';?>
 	</body>
 </html>

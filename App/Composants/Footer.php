@@ -7,7 +7,7 @@
 </head>
 <body>
 <footer class="footer-16371">
-            <div class="container">
+            <div class="container conte">
               <div class="row justify-content-center">
                 <div class="col-md-9 text-center list">
                   

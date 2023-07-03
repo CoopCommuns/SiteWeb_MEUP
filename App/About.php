@@ -4,12 +4,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<?php include 'lien.php';?>
+		<?php include 'Composants/lien.php';?>
 
 		<title>MEUP</title>
   </head>
   <body>
-       <?php include 'Header.php';?>
+       <?php include 'Composants/Header.php';?>
       
         
         <section  class="section">
@@ -200,6 +200,6 @@
             </div>
         </div>
 
-        <?php include 'Footer.php';?>
+        <?php include 'Composants/Footer.php';?>
 </body>
 </html>

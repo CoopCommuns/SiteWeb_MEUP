@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<?php include 'lien.php';?>
+		<?php include 'Composants/lien.php';?>
 
     <title>Document</title>
     <!-- <script type="text/javascript">
@@ -18,7 +18,7 @@
         </script> -->
 </head>
 <body>
-<?php include 'Header.php';?>
+<?php include 'Composants/Header.php';?>
 <div class="mt-5 d-flex align-items-center">
 	<a href="Ajoutevènement" class="inscription-link">Ajouter un évènement</a>
 </div>
@@ -129,6 +129,6 @@
         </div>
        
       </section>
-      <?php include 'Footer.php';?>
+      <?php include 'Composants/Footer.php';?>
 </body>
 </html>

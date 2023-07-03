@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php include 'lien.php';?>
+    <?php include 'Composants/lien.php';?>
 </head>
 <body>
-<?php include 'Header.php';?>
+<?php include 'Composants/Header.php';?>
     <section  class="section">
 		<div class=" newsletter-container">
 			<div class="card  border-0 rounded-0">
@@ -263,6 +263,6 @@
         </div>                    
                               
     </section>                           
-    <?php include 'Footer.php';?>
+    <?php include 'Composants/Footer.php';?>
 </body>
 </html>
