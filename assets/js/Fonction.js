@@ -1,4 +1,18 @@
-
+function GetAllevent(){
+    $.ajax(
+        {
+            type: "get",
+            url: "./Getevent.php",
+            success: function(data) {
+                $('#event').append(data);
+            },
+            error: function(){
+                alert("impossible d'afficher les données");
+            }
+              
+        }
+    )
+}
 function envoyerInscription() {
     var preferencesDiv = document.getElementById('preferences');
     var checkboxes = preferencesDiv.querySelectorAll('input[type="checkbox"]:checked');
@@ -19,3 +33,5 @@ function envoyerInscription() {
     location.reload();
     }
 
+ 
+    

@@ -6,9 +6,22 @@
 		<?php include 'lien.php';?>
 
     <title>Document</title>
+    <!-- <script type="text/javascript">
+        $
+        (
+            function()
+            {
+                GetAllevent();
+            }
+        );
+        
+        </script> -->
 </head>
 <body>
 <?php include 'Header.php';?>
+<div class="mt-5 d-flex align-items-center">
+	<a href="Ajoutevènement" class="inscription-link">Ajouter un évènement</a>
+</div>
 <section class="intro ">
         <div class="bg-image h-100" >
           <div class="mask d-flex align-items-center h-100">
@@ -114,6 +127,7 @@
             </div>
           </div>
         </div>
+       
       </section>
       <?php include 'Footer.php';?>
 </body>
