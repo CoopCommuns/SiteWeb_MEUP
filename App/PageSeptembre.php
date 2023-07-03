@@ -6,16 +6,7 @@
 		<?php include 'Composants/lien.php';?>
 
     <title>Document</title>
-    <!-- <script type="text/javascript">
-        $
-        (
-            function()
-            {
-                GetAllevent();
-            }
-        );
-        
-        </script> -->
+   
 </head>
 <body>
 <?php include 'Composants/Header.php';?>
