@@ -525,3 +525,25 @@ i{
 	margin-top: 70px;
 	margin-left:43%;
 }
+.table-responsive {
+	overflow-x: auto;
+  }
+  
+  .table-scroll {
+	max-height: 500px; /* Ajustez la hauteur maximale en fonction de vos besoins */
+	overflow-y: scroll;
+  }
+  
+  @media (max-width: 768px) { /* Ajustez la valeur de 768px en fonction de vos besoins */
+	.table-responsive {
+	  width: 100%;
+	  overflow-x: auto;
+	}
+  
+	.table-scroll {
+	  max-height: none;
+	}
+  }
+  .intro {
+	margin-top: 50px; /* Ajustez la valeur de la marge supérieure selon vos besoins */
+  }

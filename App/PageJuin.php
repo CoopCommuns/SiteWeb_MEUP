@@ -9,16 +9,17 @@
 </head>
 <body>
      <?php include 'Composants/Header.php';?>
-    <section class="intro">
-        <div class="bg-image " >
-          <div class="mask d-flex align-items-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-12">
-                  <div class="card_table">
-                    <div class="card-body">
-                      <div class="table-responsive table-scroll " data-mdb-perfect-scrollbar="true" >
-                        <table class="table table-striped  ">
+     <section class="intro">
+    <div class="bg-image">
+      <div class="mask d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="card_table">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <div class="table-scroll" data-mdb-perfect-scrollbar="true">
+                      <table class="table table-striped">
                           <thead style="background-color: #141517;" class="height">
                             <tr>
                               <th scope="col">Date</th>
