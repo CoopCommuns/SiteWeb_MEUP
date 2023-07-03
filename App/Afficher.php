@@ -6,20 +6,22 @@
     <?php include 'lien.php';?>
 
         <title>Document</title>
-        <script type="text/javascript">
-            $
-            (
-                function()
-                {
-                    GetAllevent();
-                }
-            );
-            
-            </script>
-            
+        <script type="text/javascript"></script>  
 </head>
 <body>
-    <div id="event"> 
+<?php
+        include 'Backend/cnxbdd.php';
+        $sql = $cnx->prepare("select * from evenement");
+        $sql->execute();
+        foreach($sql->fetchAll(PDO::FETCH_ASSOC) as $unCine)
+        {
+            echo "<table class='divCine'>";
+            echo "<tr>".$unCine['Type']."<tr>";
+            echo "<tr>".$unCine['Date']."</tr>"; 
+            echo "<tr>".$unCine['Description']."</t>";
+            echo "<table>";
+        }
+    ?>
 
     </div> 
 </body>
