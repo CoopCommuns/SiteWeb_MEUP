@@ -89,7 +89,7 @@
 	background-color: #fff;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	position: relative;
+	
 	display: inline-block;
 	margin-left: 20px;
 	
@@ -97,10 +97,10 @@
   .newsletter-text{
 	font-family: 'arial';
 	font-size: 20px;
-	padding:15px 20px 10px 40px;
+	padding:15px 30px 10px 40px;
 	color: #5e5e5e;
 	width: 100%;
-	position: relative;
+
 	margin-top: 30px;
   }
   .bubble-message{
@@ -123,10 +123,9 @@
   .bubble-message::after {
 	content: "";
 	position: absolute;
-	top: 100%;
+	top: 1px;
 	left: 50%;
-	margin-left: -8px; /* Moitié de la largeur du triangle (8px dans votre exemple) */
-	
+	margin-left: -8px; 
 	border-width: 15px;
 	border-style: solid;
 	border-color: #eee7e7 transparent transparent ;
@@ -217,10 +216,9 @@
   .testimonial-description {
 	padding-left: 15px;;
 	padding-top: 10px, 0,0;
-	font-family:  'popins';
+	font-family:  'arial';
 	color: #5e5e5e;
-	
-	font-size: 16px;
+	font-size: 20px;
   }
   
   .testimonial-section {

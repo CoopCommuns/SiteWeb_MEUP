@@ -10,9 +10,9 @@
 </head>
 <body>
 <?php include 'Composants/Header.php';?>
-<div class="mt-5 d-flex align-items-center">
+<!-- <div class="mt-5 d-flex align-items-center">
 	<a href="Ajoutevènement" class="inscription-link">Ajouter un évènement</a>
-</div>
+</div> -->
 <section class="intro ">
         <div class="bg-image h-100" >
           <div class="mask d-flex align-items-center h-100">
@@ -104,7 +104,7 @@
                               <td>Samedi 23 septembre</td>
                               <td>Vide grenier et mini forum ESS </td>
                               <td>En attente accord de la Ville</td>
-                              <td><a href="Detail.php">Plus de details</a></td>
+                              <td><a href="https://lameup.mystrikingly.com/">Plus de details</a></td>
                              
                             </tr>
                             

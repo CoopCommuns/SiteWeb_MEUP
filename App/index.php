@@ -106,7 +106,7 @@
 													<li>Consulter le règlement intérieur</li>
 												</ul>
 												<div class="Rejoindre">
-													<a href="#" class="rejoindre-link">Rejoindre</a>
+													<a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/beta-vide-grenier-forum-ess" class="rejoindre-link">Rejoindre</a>
 												</div>
 											</div> 
 
@@ -127,7 +127,7 @@
 																		<input type="checkbox" class="form-check-input" id="evenements" name="preferences[]" value="evenements">
 																		<label class="form-check-label" for="evenements">Événements</label>
 																	</div>
-																</div>
+														</div>
 															
 																</div>
 																<div class="row form_next">
