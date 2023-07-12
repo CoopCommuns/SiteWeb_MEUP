@@ -39,16 +39,17 @@
 														Lieu : rue de l’église + place de l’église + rue de la ferme dans sa totalité, fin à la rue du potager (cf. zone orange sur le plan ci-dessous)
 
 														Nombre d’exposants : entre 100 et 150,</p>
-														<center>
-															<div class="Rejoindre">
-															<a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="rejoindre-link">Rejoindre</a>
-															</div>
-														</center>
+														
 																				
 												</div>
 												<div class=" card-body">
 													<img src="../assets/img/plan.jpg" alt="" style="height: 60%; width: 100%;">
 												</div>
+												<center>
+													<div class="Rejoindre mt-5">
+													<a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/beta-vide-grenier-forum-ess" class="rejoindre-link">Réservez ici</a>
+													</div>
+												</center>
 										    </div>
 												
 
@@ -80,32 +81,15 @@
 													<div class="form-group">
 														<div class="bubble-message">
 															<h4 class="newsletter-title">Abonnez-vous à notre 
-																<span>newsletter</span></h4>
+																newsletter</h4>
 															
-																<div class="form-group form" id="preferences">
-																	<h4>Préférences de la newsletter :</h4>
-																	<div class="form-check">
-																		<input type="checkbox" class="form-check-input" id="actualites" name="preferences[]" value="actualites">
-																		<label class="form-check-label" for="actualites">Actualités</label>
-																	</div>
-																	<div class="form-check">
-																		<input type="checkbox" class="form-check-input" id="evenements" name="preferences[]" value="evenements">
-																		<label class="form-check-label" for="evenements">Événements</label>
-																	</div>
+																
+													<div class="Rejoindre mt-5">
+													<a href="https://08fujsqclz6.typeform.com/to/ov4W5RM0?typeform-source=lameup.mystrikingly.com" class="rejoindre-link">S'inscrire</a>
+													</div>
+												
 														</div>
-															
-																</div>
-																<div class="row form_next">
-																	<div class="col-md-6">
-																		<div class="form-group rounded ht">
-																			<input type="email" class="form-control " id="email" name="email" required placeholder="Votre adresse mail">
-																		</div>
-																	</div>
-																	<div class="col-md-6 d-flex align-items-center">
-																		<a href="https://08fujsqclz6.typeform.com/to/ov4W5RM0?typeform-source=lameup.mystrikingly.com"  class="inscription-link">S'inscrire</a>
-																	</div>
-																</div>
-												</form>
+													
 											</div>
 										</div>
 									</div>
