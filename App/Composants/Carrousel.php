@@ -13,6 +13,7 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
         
             <!-- Wrapper for slides -->
@@ -26,7 +27,10 @@
                 </div>
             
                 <div class="carousel-item">
-                    <img src="../assets/img/Carousel/20230121_135710.jpg" alt="Image 3">
+                    <img src="../assets/img/FORUM ESS 1.png" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Carousel/VIDE GRENIERS.png" alt="Image 3">
                 </div>
             </div>
         </div>
