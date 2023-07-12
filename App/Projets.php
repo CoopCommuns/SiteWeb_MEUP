@@ -13,7 +13,8 @@
         <div class="card-group vgr-cards newsletter-text">
             <div class="card" id="Restaurant Café ">
             <div class="card-img-body">
-            <img class="card-img" src="https://picsum.photos/500/230" alt="Card image cap">
+            <img class="card-img" src="../assets/img/restaurant.png" alt="Card image cap">
+            <img class="card-img" src="../assets/img/restaurant1.png" alt="Card image cap" style="margin-top:200px">
             </div>
             <div class="card-body ">
                 <h4 class="card-title newsletter-title">Le Restaurant Café coopératif de La MEUP</h4>
@@ -23,11 +24,19 @@
                  <p>Responsable, sa cuisine sera réalisée avec des produits issus des acteurs de la paysannerie engagée et de la valorisation d’invendus pour lutter contre le gaspillage. </p>
                  <p>Promoteur de l'entrepreneuriat coopératif, des salariés entrepreneurs animent le lieu depuis la cuisine et soutiennent un vaste programme d'éducation populaire au côté des sociétaires.</p>
                  <p>Engagée, notre démarche soutient une expérimentation de sécurité sociale de l’alimentation, intégrant l’ensemble des acteurs dans un écosystème coopératif du champ à la fourchette. </p>
+                 
             </div>
+           
             </div>
-            <div class="card" id="Compositeur Collectif">
+            <div class=" card-body">
+					<img src="../assets/img/Capture.png" style="height: 60%; width: 100%;">
+				</div>
+
+            <div class="card mt-5" id="Compositeur Collectif">
             <div class="card-img-body">
-                <img class="card-img" src="https://picsum.photos/400/200" alt="Card image cap"></div>
+                <img class="card-img" src="../assets/img/IMG-20230626-WA0007.jpg" alt="Card image cap">
+                <img class="card-img" src="../assets/img/pavillons.png" alt="Card image cap" style="margin-top:270px; height: 42%;">
+            </div>
             <div class="card-body">
                 <h4 class="card-title newsletter-title">Le Compositeur Collectif Et Son Jardin Créatif & Productif </h4>
                 <p class="card-text">Un composteur collectif permettant de collecter les biodéchets d'environ 100 foyers et du restaurant coopératif. Une partie du compost est utilisée pour le besoin du potager collectif.</p>
@@ -43,10 +52,10 @@
                    <h4 class="card-title newsletter-title text-center mb-4">La Bricothèque & La Grainothèque </h4>
                     <div class="row">
                     <div class="col-md-6">
-                        <img class="card-img mr-3" src="https://picsum.photos/450/250" alt="Card image cap">
+                        <img class="card-img mr-3" src="../assets/img/bricothèque.PNG" alt="Card image cap">
                     </div>
                     <div class="col-md-6">
-                        <img class="card-img ml-5" src="https://picsum.photos/450/250" alt="Card image cap" style="padding-left: 20px;">
+                        <img class="card-img ml-5" src="../assets/img/grainothèque.PNG" alt="Card image cap" style="padding-left: 20px;">
                     </div>
                     </div>
                 </div>

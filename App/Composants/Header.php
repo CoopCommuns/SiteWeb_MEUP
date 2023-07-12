@@ -34,7 +34,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="dropdownMenu">
                             <li><a class="dropdown-item" href="Projets.php#Restaurant Café">Le Restaurant Café coopératif de La MEUP</a></li>
-                            <li><a class="dropdown-item" href="Projets.php#Compositeur Collectif">Le Compositeur Collectif Et Son Jardin Créatif & Productif</a></li>
+                            <li><a class="dropdown-item" href="Projets.php#Compositeur Collectif">Le Composteur Collectif Et Son Jardin Créatif & Productif</a></li>
                             <li><a class="dropdown-item" href="Projets.php#La Bricothèque & La Grainothèque">La bricothèque & La grainothèque</a></li>
                         </ul>
                     </li>
