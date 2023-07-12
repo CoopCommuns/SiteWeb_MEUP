@@ -3,46 +3,40 @@
 .redressed {
 	font-family: 'Redressed', cursive;
 }
-/* body .section {
-	background-color: #c4b2a2;
-} */
 
 .merriweather {
 	font-family: 'Merriweather', serif;
-
 }
 
 .cc-navbar {
-	background-image: url('../img/Design sans titre .png')  ;
-	background-size: 100%;
+	background-image: url('../img/Bannière Site internet La MEUP.jpg');
+	background-size: cover;
 	font-family: 'Merriweather', serif;
 	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
-	
-	height: 70px;
-	
-}
-
-.cc-navbar .navbar-nav .nav-link {
+	height: 77px;
+  }
+  
+  .cc-navbar .navbar-nav .nav-link {
 	color: rgb(240, 244, 245);
 	text-decoration: none;
 	display: inline-block;
-	padding-left: 40px;
+	padding-left: 4em; 
 	font-weight: 500;
-    cursor: pointer;
-	font-size: 16px;
-}
-
-.cc-navbar .navbar-nav {
-	padding-left: 600px;
-}
-
-
-
-.banner .banner-desc h1 {
-	font-size: 48px;
-	font-weight: 400;
+	cursor: pointer;
+	font-size: 1em; 
+  }
+  
+  .cc-navbar .navbar-nav {
+	padding-left: 30em; 
+	
+  }
+  
+  .banner .banner-desc h1 {
+	font-size: 3em; 
+	font-weight: 300;
 	color: #fff;
-}
+  }
+  
 
 .cc-menu {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Carousel/20230121_135710.jpg') center center fixed no-repeat;
@@ -96,7 +90,7 @@
   }
   .newsletter-text{
 	font-family: 'arial';
-	font-size: 20px;
+	font-size: 18px;
 	padding:15px 30px 10px 40px;
 	color: #5e5e5e;
 	width: 100%;
@@ -170,44 +164,60 @@
     
     
   }
-  .container_slider{
-	
-	margin-left: 90px;
-	margin-right: 90px;
-	margin-bottom: 40px;
+  .container_slider {
+	max-width: 100%;
+	padding: 0 20px;
+	margin: 40px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: #e3e3e3;
+	border-radius: 10px;
   }
 
  
-  
   .img-container {
-	position: relative;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 50%;
 	border-radius: 10px;
-	margin: 0px 40px 0px 40px;
+	margin: 0px 5px 0px 5px;
   }
-  
   
   .testimonial-item .img {
 	border-radius: 20px;
-    padding: 10px;
-	height: 150px;
-	width: 280px;
-    
-  
+	height: 38%;
+	width: 95%;
   }
   .testimonial-item {
 	background-color: #fff;
 	border-radius: 20px;
-	-webkit-box-shadow: 0 0 15px rgb(0 0 0 / 10%);
-	box-shadow: 0 0 15px rgb(0 0 0 / 10%);
-	display: flex;
-	flex-direction: column; 
-	margin: 0px 10px 10px 10px;
-	align-items: center; 
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 	
+	padding: 15px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 991px) {
+	.col-md-3 {
+	  flex: 0 0 calc(50% - 20px);
+	}
+  }
+  
+  @media (max-width: 767px) {
+	.col-md-3 {
+	  flex: 0 0 100%;
+	}
+  }
+
+  
+  .slider {
+	justify-content: center;
+  }
+  
+  .carousel-inner {
+	display: flex;
+	flex-wrap: wrap;
   }
  .table-secondary{
 	margin: 0px 10px 10px 10px;
@@ -222,10 +232,7 @@
   }
   
   .testimonial-section {
-	background-color: #f4ebe4;
-	padding: 10px;
-	border-radius: 10px;
-	
+	margin-top: 50px;
   }
   .inscription-link{
 	background-color: #bb620f;
@@ -353,6 +360,7 @@ footer{
 	font-family: 'arial';
 	font-size:  18px;
 	font-weight: bold;
+	text-align: center;
 }
 .fixed-content {
 	-webkit-box-flex: 0;
@@ -481,8 +489,8 @@ thead {
   }
   .photos-container {
 	margin-left: 40px;
-	background-color: #f4ebe4;
-	border-radius: 10px;
+	background-color: #e3e3e3;
+	border-radius: 5px;
 	padding: 40px 40px 40px 40px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	position: relative;
@@ -519,29 +527,3 @@ i{
 	height: 50px;
 	
 }
-.movement{
-	margin-top: 70px;
-	margin-left:43%;
-}
-.table-responsive {
-	overflow-x: auto;
-  }
-  
-  .table-scroll {
-	max-height: 500px; /* Ajustez la hauteur maximale en fonction de vos besoins */
-	overflow-y: scroll;
-  }
-  
-  @media (max-width: 768px) { /* Ajustez la valeur de 768px en fonction de vos besoins */
-	.table-responsive {
-	  width: 100%;
-	  overflow-x: auto;
-	}
-  
-	.table-scroll {
-	  max-height: none;
-	}
-  }
-  .intro {
-	margin-top: 50px; /* Ajustez la valeur de la marge supérieure selon vos besoins */
-  }

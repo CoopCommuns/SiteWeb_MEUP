@@ -12,9 +12,9 @@
                 <div class="col-md-9 text-center list">
                   
                   <ul class="list-unstyled nav-links mb-5">
-                    <li><a href="#">Qui sommes-nous ?</a></li>
+                    <li><a href="About.php">Qui sommes-nous ?</a></li>
+                    <li><a href="index.php#contact">Nous Contacter</a></li>
                     <li><a href="#">Nos Partenaires</a></li>
-                    <li><a href="#">Nous Contacter</a></li>
                   </ul>
       
                   <div class="social mb-4">

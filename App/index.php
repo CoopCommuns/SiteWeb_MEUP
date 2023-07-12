@@ -15,64 +15,49 @@
 							<div class="card  border-0 rounded-0">
 								
 									<div class="row ">
-										<div class="col-md-7 newsletter-text">
-										<h3 class="tittle_row">Les Projets à  Ferme de Contin</h3>
-											<div  >
-												<h3 style="margin-top:10px;">Le Restaurant Café coopératif de La MEUP</h3>
-												<div class="photos-container mt-4 mb-4 " >
-													<img src="../assets/img/IMG_1325.jpg" alt="Photo 1" class="logo" > 
-													<img src="../assets/img/20220608_143013.jpg" alt="Photo 2" class="logo " style="margin-left:40px" >
+									
+										<div class="card-group vgr-cards col-md-7 newsletter-text">
+											<div class="card" id="Compositeur Collectif">
+												<div class="card-img-body">
+													<img class="card-img" src="../assets/img/plan.jpg" alt="Card image cap"></div>
+												<div class="card-body">
+													<h4 class="card-title newsletter-title">Vide Grenier de la Ferme de Contin </h4>
+													<p style="font-size:15px; padding-left:15px; " class="mt-2"><i>Samedi 23 Septembre 2023 - de 9h à 18h</i></p>
+													<p class="card-text">À l’occasion de ses 2 ans de présence à la ferme de Contin de Paray-Vieille-Poste, la MEUP vous invite à participer à un vide grenier (150 exposants), le samedi 23 septembre 2023.</p>
+													<p>Les réservations se font exclusivement par la billetterie Helloasso, le prix est fixé à 5 € pour 2 mètres linéaires (maximum 6 mètres linéaires par foyer). A la suite du paiement vous recevrez un mail pour finaliser votre inscription.</p>
+													
 												</div>
-											</div>
-											
-											<div class=" mt-5 pl-4"> 
-												<p >
-												Le Restaurant café coopératif de la Maison de l’écologie urbaine et pratique est un tiers lieu alimentaire, qui s’inscrit dans un programme d’urbanisme transitoire à la Ferme de Contin de Paray-Vieille-Poste.
-                                                D’une capacité de 50-70 couverts par service, il propose une offre de restauration de qualité, à des coûts accessibles, et un dispositif solidaire de plats suspendus.
+												</div>
+												<div class="card card-body">
+													<p class="card-text">
+														Les exposants doivent être des particuliers majeurs, ou des associations à but non lucratif.
 
-												</p>
-												<p>
-												Responsable, sa cuisine sera réalisée avec des produits issus des acteurs de la paysannerie engagée et de la valorisation d’invendus pour lutter contre le gaspillage. 
-												</p>
-												<p>
-												Promoteur de l'entrepreneuriat coopératif, des salariés entrepreneurs animent le lieu depuis la cuisine et soutiennent un vaste programme d'éducation populaire au côté des sociétaires.
-												</p>
-												<p>
-												Engagée, notre démarche soutient une expérimentation de sécurité sociale de l’alimentation, intégrant l’ensemble des acteurs dans un écosystème coopératif du champ à la fourchette. 
-												</p>
-											
-												<p>
-												Création d'un composteur collectif en bois de 30 m² et d'une micro ferme urbaine permettant l'émergence d'un écosystème local pour favoriser l'agriculture urbaine et collective. Avec local stockage, récupérateur d'eau, bacs de culture hors sol sur terrain de 600 m²
-												</p>
-												<p>
-												Un composteur collectif permettant de collecter les biodéchets d'environ 100 foyers et du restaurant coopératif. Une partie du compost est utilisée pour le besoin du potager collectif .
+														Les places seront affectées par ordre d’inscription, les numéros d’emplacement transmis au plus tard 24h avant le samedi 23 septembre 2023.
 
-												</p>
-												<p>
-												Le projet prévoit que l'ensemble des travaux d'aménagement soit réalisé en chantier école en lien avec des structures de formation partenaires. Formation ouverte à tous les publics et notamment aux personnes en situation précaire et/ou éloignées de l'emploi.
-												</p>
-												<p>
-												Une “formation expérimentale” pour renforcer le modèle économique fragile de l’agriculture urbaine à court terme (aménagement) et long terme (exploitation) :
-                                                   Former pour réussir une inclusion dans le monde professionnel favorisant les transitions démocratique écologique, économique et sociale.
+														Le paiement vaut acceptation du règlement du vide grenier, disponible en pièce jointe (à lire absolument).
 
-												</p>
-												<p>
-												Le projet du composteur collectif pourrait faire l’objet d’une expérimentation en lien avec 1 structure référente sur le territoire, pour amplifier la partie collecte à l’échelle de la Ferme et potentiellement amorcer l’essaimage de ce dispositif, sur d’autres quartiers et d’autres communes. En lien avec l’ADEME, une réunion pourrait être organisée avec l’EPT et la Ville.
+														Lieu : rue de l’église + place de l’église + rue de la ferme dans sa totalité, fin à la rue du potager (cf. zone orange sur le plan ci-dessous)
 
-													Les dispositifs grainothèque et bricothèque pourraient également générer la création d’emploi, mutualisée avec un chantier d’insertion.
-
-												</p>
-											</div>
-
-										</div>
+														Nombre d’exposants : entre 100 et 150,</p>
+														<center>
+															<div class="Rejoindre">
+															<a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="rejoindre-link">Rejoindre</a>
+															</div>
+														</center>
+																				
+												</div>
+												<div class=" card-body">
+													<img src="../assets/img/plan.jpg" alt="" style="height: 60%; width: 100%;">
+												</div>
+										    </div>
 												
 
 										<div class="col-md-5 fixed-content " >
 											<div class="bubble" id="activités">
 												<h4 class="newsletter-title">Nos activités</h4>
 												<ul class="testimonial">
-													<a href="#id"><li>Rejoindre le Club de la coopération  économique et social </li></a>
-													<a href="#"><li>Rejoindre la Coopérative d’Activité  et d’emploi </li></a>
+													<a href="https://www.terres-efc-idf.org/lefc/un-point-d-appui-pour-mon-projet/"><li>Rejoindre le Club de la coopération  économique et social </li></a>
+													<a href="https://www.cae22.coop/-entreprenez-en-cooperative-d-activites-et-d-emploi-.htmlhttps://omnicite.fr/services/"><li>Rejoindre la Coopérative d’Activité  et d’emploi </li></a>
 													<a href="#"><li>Voir nos formations</li></a>
 													<a href="#"><li>Offres d’emplois</li></a>
 													<a href="#"><li>Activités économique locale</li></a>
@@ -88,27 +73,7 @@
 												</ul>
 											</div> 
 
-											<div class="bubble mt-5">
-												<h4 class="newsletter-title">Rejoindre l’association</h4>
-												<p class="testimonial">
-													Siège de la participation Citoyenne l’association de la Maison de l’écologie 
-													urbaine et pratique, une association loi 1901, dont le siège social est situé au 50, 
-													avenue Aristide Briand - 91 550 Paray-Vieille-Poste,représentée par son Président Sébastien MOIREAU
-
-												</p>
-												<p class="testimonial">
-													Vous souhaitez soutenir et vous investi pour 
-													les transitions démocratique, écologique, sociale et alimentaire rejoignez nous :  
-												</p>
-												<ul class="testimonial">
-													<li>Hello Asso</li>
-													<li>Consulter les statuts </li>
-													<li>Consulter le règlement intérieur</li>
-												</ul>
-												<div class="Rejoindre">
-													<a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/beta-vide-grenier-forum-ess" class="rejoindre-link">Rejoindre</a>
-												</div>
-											</div> 
+											
 
 											<div class="top mt-5">
 												<form action="#" method="post" >
@@ -137,7 +102,7 @@
 																		</div>
 																	</div>
 																	<div class="col-md-6 d-flex align-items-center">
-																		<a href="#" onclick="envoyerInscription(); return false;" class="inscription-link">S'inscrire</a>
+																		<a href="https://08fujsqclz6.typeform.com/to/ov4W5RM0?typeform-source=lameup.mystrikingly.com"  class="inscription-link">S'inscrire</a>
 																	</div>
 																</div>
 												</form>

@@ -10,8 +10,7 @@
   </head>
   <body>
        <?php include 'Composants/Header.php';?>
-      
-        
+
         <section  class="section">
             <div class="mb-10 newsletter-container ">
                 <div class="card mb-3 border-0 rounded-0">
@@ -78,11 +77,11 @@
                           <div class="bubble">
                             <h4 class="newsletter-title">Nos activités</h4>
                             <ul class="testimonial">
-                              <a href="#id"><li>Rejoindre le Club de la coopération  économique et social </li></a>
-                              <a href="#"><li>Rejoindre la Coopérative d’Activité  et d’emploi </li></a>
-                              <a href="#"><li>Voir nos formations</li></a>
-                              <a href="#"><li>Offres d’emplois</li></a>
+                              <a href="https://www.terres-efc-idf.org/lefc/un-point-d-appui-pour-mon-projet/"><li>Rejoindre le Club de la coopération  économique et social </li></a>
+                              <a href="https://www.cae22.coop/-entreprenez-en-cooperative-d-activites-et-d-emploi-.html"><li>Rejoindre la Coopérative d’Activité  et d’emploi </li></a>
+                              <a href="https://fr.indeed.com/q-offre-emploi-emplois.html?vjk=d0cfd68b6ab1e87e"><li>Offres d’emplois</li></a>
                               <a href="#"><li>Activités économique locale</li></a>
+                              <a href="#"><li>Voir nos formations</li></a>
                               
                             </ul>
                           </div> <br><br>
@@ -96,7 +95,7 @@
                           </div> <br><br>
                           <div class="bubble ">
                             <h4 class="newsletter-title">Rejoindre l’association</h4>
-                            <p class="testimonial">
+                            <!-- <p class="testimonial">
                               Siège de la participation Citoyenne l’association de la Maison de l’écologie 
                               urbaine et pratique, une association loi 1901, dont le siège social est situé au 50, 
                               avenue Aristide Briand - 91 550 Paray-Vieille-Poste,représentée par son Président Sébastien MOIREAU
@@ -110,9 +109,9 @@
                               <li>Hello Asso</li>
                               <li>Consulter les statuts </li>
                               <li>Consulter le règlement intérieur</li>
-                            </ul>
+                            </ul> -->
                             <div class="Rejoindre">
-                              <a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/beta-vide-grenier-forum-ess" class="rejoindre-link">Rejoindre</a>
+                              <a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="rejoindre-link">Rejoindre</a>
                             </div>
                           </div>
                       </div>
@@ -122,7 +121,7 @@
     </section>
             <div class="container_slider">
                 <div class="testimonial-section  mt-5">
-                    <h3 class="section-title text-center font-weight-bold">L’équipe des permanents de la MEUP</h3>
+                    <h3 class="section-title text-center font-weight-bold"><b>L’équipe des permanents de la MEUP</b></h3>
                     <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner testimonial-container">
                         <div class="carousel-item active slider">
@@ -130,7 +129,7 @@
                                   <div class="col-md-3 ">
                                     <div class="testimonial-item">
                                         <div class="img-container">
-                                        <img src="../assets/img/OIP0.jpg"  class="d-block img" >
+                                        <img src="../assets/img/Baptiste.jpg"  class="d-block img" >
                                         </div>
                                         <h5 class="title">Baptiste POULAIN</h5>
                                         <p class="testimonial-description">
@@ -139,7 +138,7 @@
                                            dans l’éco-construction, l’éco-rénovation.
                                            Artiste plasticien engagé. <br>
                                             Membre du club de l'Économie de la Fonctionnalité 
-                                             et de la Coopération (EFC) Ile-de-France. <br>
+                                             et de la Coopération (EFC) Ile-de-France. 
                                              Co-fondateur de la coopérative et premier 
                                              gérant élu de la MEUP.
                                         </p>
@@ -148,7 +147,22 @@
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
                                       <div class="img-container">
-                                        <img src="../assets/img/OIP0.jpg" class=" img" >
+                                          <img src="../assets/img/BéatriceA.jpg"  class=" img" >
+                                          </div>
+                                          <h5 class="title">Béatrice ALBARET</h5>
+                                          <p class="testimonial-description">
+                                            Co-fondatrice de la MEUP. Secrétaire de l’association <br> de la MEUP. 
+                                            + de 15 ans d’expérience dans le médico-social.  Artiste plasticienne engagée. 
+                                            Co-fondatrice du supermarché coopératif Les Grains de Sel (+1700 sociétaires)
+                                            et de Coop Communs opérateur du PTCE pour une SSA.
+                                          </p>
+                            
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <div class="testimonial-item">
+                                      <div class="img-container">
+                                        <img src="../assets/img/Sébastien.jpg" class=" img" >
                                         </div>
                                         <h5 class="title">Sébastien MOIREAU </h5>
                                         <p class="testimonial-description">
@@ -159,30 +173,16 @@
                                        
                                     </div>
                                   </div>
-                                  <div class="col-md-3">
-                                    <div class="testimonial-item">
-                                      <div class="img-container">
-                                          <img src="../assets/img/OIP0.jpg"  class=" img" >
-                                          </div>
-                                          <h5 class="title">Béatrice ALBARET</h5>
-                                          <p class="testimonial-description">
-                                            Co-fondatrice de la MEUP. Secrétaire de l’association <br> de la MEUP. <br> <br>
-                                            + de 15 ans d’expérience dans le médico-social. <br> Artiste plasticienne engagée. <br>
-                                            Co-fondatrice du supermarché coopératif Les Grains de Sel (+1700 sociétaires)
-                                            et de Coop Communs opérateur du PTCE pour une SSA.
-                                          </p>
-                            
-                                    </div>
-                                  </div>
+                                  
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
                                         <div class="img-container">
-                                          <img src="../assets/img/OIP0.jpg" alt="Témoignage 3" class=" img">
+                                          <img src="../assets/img/MoussaSY.jpg" alt="Témoignage 3" class=" img">
                                         </div>
                                         <h5 class="title">Moussa SY </h5>
                                           <p class="testimonial-description">
                                             Trésorier de l’association  <br>  de la  MEUP. <br>
-                                            + de 25 ans d’expérience dans les métiers de la comp- <br>tabilité. <br>
+                                            + de 25 ans d’expérience dans les métiers de la comptabilité. <br>
                                             Co-fondateur et président de la Coopérative Nature Nourricière.
 
                                           </p>

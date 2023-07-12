@@ -19,19 +19,3 @@ function envoyerInscription() {
     location.reload();
     }
 
-    function GetAllevent(){
-        $.ajax(
-            {
-                type: "get",
-                url: "../Getevent.php",
-                success: function(data) {
-                    $('#event').append(data);
-                },
-                error: function(){
-                    alert("impossible d'afficher les données");
-                }
-                  
-            }
-        )
-    }
-    
