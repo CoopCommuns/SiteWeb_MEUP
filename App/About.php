@@ -15,121 +15,85 @@
             <div class="mb-10 newsletter-container ">
                 <div class="card mb-3 border-0 rounded-0">
                     <div class="row">
-                        <div class="col-md-7 bubble newsletter-text">
+                      <div class="col-md-7 bubble newsletter-text card-group vgr-cards">
+                        <div class="card-body card">
                             <h3>Préambule </h3>
-                            <p>“Le tiers lieu de la MEUP s’inspire des mouvements coopératifs des XIXème <br> et XXème 
+                            <p>Le tiers lieu de la MEUP s’inspire des mouvements coopératifs des XIXème et XXème 
                                 siècle et du modèle de la Bellevilloise de 1877.</p>
-                                <p>Le projet consiste à confier le pouvoir d’agir aux citoyens par la reprise des moyens <br>
-                                    de production, pour mener à un changement de paradigme et d’accélérer les <br>
-                                    transitions : démocratique,  écologique, économique, sociale et alimentaire, dans le <br> 
-                                    respect des politiques publiques avec le soutien des collectivités.”</p>
+                                <p>Le projet consiste à confier le pouvoir d’agir aux citoyens par la reprise des moyens 
+                                    de production, pour mener à un changement de paradigme et d’accélérer les 
+                                    transitions : démocratique,  écologique, économique, sociale et alimentaire, dans le 
+                                    respect des politiques publiques avec le soutien des collectivités.</p>
+                          </div>
 
-                            <h3>Historique</h3>
-                            <p>La Maison de l’écologie urbaine et pratique (La MEUP) est une coopératve, fondée <br> en 2021
-                                par un collectif citoyen, portant un projet de tiers-lieu coopératif, <br>“Incubateur de la transition 
-                                écologique” pour une alimentation saine et durable <br> accessible pour toutes et tous. 
-                            </p>
+                          <div class="card-body card">
+                              <h3>Historique</h3>
+                              <p>La Maison de l’Écologie Urbaine et Pratique (La MEUP) est une coopératve, fondée  en 2021
+                                  par un collectif citoyen, portant un projet de tiers lieu coopératif, “Incubateur de la transition 
+                                  écologique” pour une alimentation saine et durable,  accessible pour toutes et tous. 
 
-                            <p>
-                                Basée en cœur de ville de Paray-Vieille-Poste (91), elle se développe dans un lieu hautement 
-                                symbolique, l’ancienne ferme de Contin.
-                            </p>
-                            <p>
-                                La MEUP s’est donnée pour mission de faciliter une transition locale systémique, <br> à la fois 
-                                démocratique, écologique, économique et sociale, de lutter durablement <br> contre les précarités et les inégalités.
-                            </p>
-                            <p>
-                                Elle est née d’une volonté de connecter  les centres urbains, centre de profits et <br> les territoires
-                                ruraux, centre de ressources,pour renforcer les coopérations  <br> et les solidarités.
-                            </p>
-
-                            <h3>SA PROPOSITION DE VALEUR :</h3>
-
-                            <p>
-                                Autour d’un espace commun, augmenter la mobilisation (publique,citoyenne et entrepreneuriale) et
-                                le pouvoir d’agir Citoyen pour accélérer une transition vers <br> un système alimentaire durable 
-                                
-                                et résilient offrant à tous un réel droit à une <br> alimentation saine (tel qu’inscrit dans la Déclaration
-                                universelle des droits de  <br> l’homme)  et moteur de la cohésion sociale. 
-                            </p>
-                            <p>
-                                La MEUP est soutenue depuis 2021 par la Région IDF, l&#39;EPT 12 GOSB (Territoire d’Industrie), 
-                                la Ville de Paray-Vieille-Poste et fédère de nombreuses structures de <br>l’ESS notamment en lien 
-                                avec le PTCE Coop Communs pour une SSA.
-                            </p> <br>
+                                  Basée en cœur de ville de Paray-Vieille-Poste (91), elle se développe dans un lieu hautement 
+                                  symbolique, l’ancienne ferme de Contin.
+                              </p>
+                              <p>
+                                  La MEUP s’est donnée pour mission de faciliter une transition locale systémique, à la fois 
+                                  démocratique, écologique, économique et sociale, de lutter durablement  contre les précarités et les inégalités.
                             
-                            <h3>Les Tiers de la MEUP est portée par 2 structures :</h3>
+                                  Elle est née<br> d’une volonté de connecter  les centres urbains, centre de profits et  les territoires
+                                  ruraux, centre de ressources, pour renforcer les coopérations  et les solidarités.
+                              </p>
+                          </div>
+
+                          <div class="card-body card">
+                              <h3>Sa proposition de valeur</h3>
+
+                              <p>
+                                  Autour d’un espace commun, augmenter la mobilisation (publique, citoyenne et entrepreneuriale) et
+                                  le pouvoir d’agir citoyen pour accélérer une transition vers un système alimentaire durable 
+                                  
+                                  et résilient offrant à tous un réel droit à une  alimentation saine (tel qu’inscrit dans la Déclaration
+                                  universelle des droits de   l’homme)  et moteur de<br> la cohésion sociale. 
+                              </p>
+                              <p>
+                                  La MEUP est soutenue depuis 2021 par la Région IDF, l&#39;EPT 12 GOSB (Territoire d’Industrie), 
+                                  la Ville de Paray-Vieille-Poste et fédère de nombreuses structures de l’ESS notamment en lien 
+                                  avec le PTCE Coop Communs <br> pour une SSA.
+                              </p>
+                          </div>
+
+                          <div class="card-body card">
+                            <h3>Le tiers lieu de la MEUP portée par 2 structures</h3>
                       
                                <p>
-                                La Maison de l’Ecologie Urbaine et Pratique, une Société coopérative d’intérêt <br> collectif (Scic) 
-                                à but non lucratif sous forme A.R.L. à capital variable, dont le siège <br> social est situé au 50, 
-                                avenue Aristide Briand - 91 550 Paray-Vieille-Poste immatri- <br>culée sous le numéro SIRET 902 846 567 00011,
-                                représentée par son Gérant élu, <br> Baptiste POULAIN,  Siège de la gouvernance démocratique,
-                                membre fondateur de l’association de la MEUP et membre permanent  du Conseil d'Administration et <br>
-                                 l’Association de La Maison de l’Ecologie Urbaine et Pratique, une association loi <br> 1901,  
-                                dont le siège social est situé au 50, avenue Aristide Briand - 91 550 Paray- <br>Vieille-Poste immatriculée 
-                                sous le numéro SIRET 902 846 567 00011,représentée par <br> son Président Sébastien MOIREAUSiège 
-                                de la mobilisation Citoyenne, sociétaire de la <br> Scic La MEUP membre du Collège des Bénéficiairess.</p>
+                               <b>La Maison de l’Ecologie Urbaine et Pratique</b> est une Société Coopérative d’Intérêt  Collectif (Scic) 
+                                  à but non lucratif sous forme A.R.L. à capital variable, dont le siège  social est situé au 50 avenue 
+                                  Aristide Briand - 91 550 Paray-Vieille-Poste.
+                                  Immatriculée sous le numéro SIRET: 902 846 567 00029, elle est représentée par  son <br>    Gérant élu Baptiste POULAIN.
+                                  Siège de la gouvernance démocratique, elle est membre fondateur de l’Association de la MEUP et membre permanent de son Conseil d'Administration.</p>
+                                <p class="mot-coupe">
+                                  <b>L’Association de la MEUP</b> est une association loi 1901. Son siège social est situé au 50 avenue Aristide Briand <br>  - 91 550 Paray Vieille-Poste.
+                                  Immatriculée sous le numéro SIRET: 923 52797200015, elle est représentée  par  son Président Sébastien MOIREAU.
+                                  Siège de la mobilisation citoyenne, elle est sociétaire de la Scic la MEUP, <br>  et membre du collège des Bénéficiaires.
                                 </p>
+                          </div>
                         </div>
 
-                        <div class="col-md-5 fixed-content">
-                          <div class="bubble">
-                            <h4 class="newsletter-title">Nos activités</h4>
-                            <ul class="testimonial">
-                              <a href="https://www.terres-efc-idf.org/lefc/un-point-d-appui-pour-mon-projet/"><li>Rejoindre le Club de la coopération  économique et social </li></a>
-                              <a href="https://www.cae22.coop/-entreprenez-en-cooperative-d-activites-et-d-emploi-.html"><li>Rejoindre la Coopérative d’Activité  et d’emploi </li></a>
-                              <a href="https://fr.indeed.com/q-offre-emploi-emplois.html?vjk=d0cfd68b6ab1e87e"><li>Offres d’emplois</li></a>
-                              <a href="#"><li>Activités économique locale</li></a>
-                              <a href="#"><li>Voir nos formations</li></a>
-                              
-                            </ul>
-                          </div> <br><br>
-                          <div class="bubble">
-                            <h4 class="newsletter-title">Evenements</h4>
-                            <ul class="testimonial">
-                              <a href="PageJuin.php"><li>Juin 2023</li></a>
-                              <a href="PageSeptembre.php"><li>Septembre 2023 </li></a>
-                            
-                            </ul>
-                          </div> <br><br>
-                          <div class="bubble ">
-                            <h4 class="newsletter-title">Rejoindre l’association</h4>
-                            <!-- <p class="testimonial">
-                              Siège de la participation Citoyenne l’association de la Maison de l’écologie 
-                              urbaine et pratique, une association loi 1901, dont le siège social est situé au 50, 
-                              avenue Aristide Briand - 91 550 Paray-Vieille-Poste,représentée par son Président Sébastien MOIREAU
-    
-                            </p>
-                            <p class="testimonial">
-                              Vous souhaitez soutenir et vous investi pour 
-                              les transitions démocratique, écologique, sociale et alimentaire rejoignez nous :  
-                            </p>
-                            <ul>
-                              <li>Hello Asso</li>
-                              <li>Consulter les statuts </li>
-                              <li>Consulter le règlement intérieur</li>
-                            </ul> -->
-                            <div class="Rejoindre">
-                              <a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="rejoindre-link">Rejoindre</a>
-                            </div>
-                          </div>
-                      </div>
+                        <?php include 'Composants/Sidebar.php';?>
                     </div>
                 </div>
             </div>
     </section>
-            <div class="container_slider">
+            <div class="container_slider d-flex justify-content-center align-items-center">
                 <div class="testimonial-section  mt-5">
                     <h3 class="section-title text-center font-weight-bold"><b>L’équipe des permanents de la MEUP</b></h3>
-                    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+                    <div id="testimonial-carousel" class="carousel slide">
                     <div class="carousel-inner testimonial-container">
                         <div class="carousel-item active slider">
                             <div class="row">
                                   <div class="col-md-3 ">
                                     <div class="testimonial-item">
                                         <div class="img-container">
-                                        <img src="../assets/img/Baptiste.jpg"  class="d-block img" >
+                                        <img src="../assets/img/Baptiste.jpg">
                                         </div>
                                         <h5 class="title">Baptiste POULAIN</h5>
                                         <p class="testimonial-description">
@@ -147,14 +111,14 @@
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
                                       <div class="img-container">
-                                          <img src="../assets/img/BéatriceA.jpg"  class=" img" >
+                                          <img src="../assets/img/BéatriceA.jpg">
                                           </div>
                                           <h5 class="title">Béatrice ALBARET</h5>
                                           <p class="testimonial-description">
                                             Co-fondatrice de la MEUP. Secrétaire de l’association <br> de la MEUP. 
                                             + de 15 ans d’expérience dans le médico-social.  Artiste plasticienne engagée. 
                                             Co-fondatrice du supermarché coopératif Les Grains de Sel (+1700 sociétaires)
-                                            et de Coop Communs opérateur du PTCE pour une SSA.
+                                            et de Coop Communs, opérateur du PTCE pour une SSA.
                                           </p>
                             
                                     </div>
@@ -162,13 +126,13 @@
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
                                       <div class="img-container">
-                                        <img src="../assets/img/Sébastien.jpg" class=" img" >
+                                        <img src="../assets/img/Sébastien.jpg">
                                         </div>
                                         <h5 class="title">Sébastien MOIREAU </h5>
                                         <p class="testimonial-description">
                                           Président de l' association <br>de la MEUP. <br> + de 20 ans de carrière dans la direction
                                            d’entreprises <br> principalement coopératives. <br> Co-fondateur du supermarché coopératif Les Grains 
-                                           de Sel (+1700 sociétaires) et de Coop Communs opérateur du PTCE pour une SSA.
+                                           de Sel (+1700 sociétaires) et de Coop Communs, opérateur du PTCE pour une SSA.
                                         </p>
                                        
                                     </div>
@@ -177,7 +141,7 @@
                                   <div class="col-md-3">
                                     <div class="testimonial-item">
                                         <div class="img-container">
-                                          <img src="../assets/img/MoussaSY.jpg" alt="Témoignage 3" class=" img">
+                                          <img src="../assets/img/MoussaSY.jpg" alt="Témoignage 3">
                                         </div>
                                         <h5 class="title">Moussa SY </h5>
                                           <p class="testimonial-description">

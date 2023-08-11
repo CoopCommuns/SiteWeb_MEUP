@@ -1,21 +1,14 @@
-
-function envoyerInscription() {
-    var preferencesDiv = document.getElementById('preferences');
-    var checkboxes = preferencesDiv.querySelectorAll('input[type="checkbox"]:checked');
-    var corpsMessage = 'Inscription à la newsletter :\n';
-
-    for (var i = 0; i < checkboxes.length; i++) {
-        corpsMessage += '- ' + checkboxes[i].value + '\n';
-    }
-
-    var adresseEmail = document.getElementById('email').value;
-    var sujetEmail = "S'inscrire à la newsletter";
-    var adresseDestination = "alifaouza10@gmail.com";
-
-    var lienMailto = 'mailto:'+ encodeURIComponent(adresseEmail) + encodeURIComponent(adresseDestination) + '?subject=' + encodeURIComponent(sujetEmail) + '&body=' + encodeURIComponent(corpsMessage);
-
-    window.location.href = lienMailto;
-    // Rafraîchir la page après l'envoi
-    location.reload();
-    }
-
+{/* <script>
+  function initMap() {
+    const ivrySurSeine = { lat: 48.8146, lng: 2.3847 }; // Coordonnées géographiques d'Ivry-sur-Seine
+    const map = new google.maps.Map(document.getElementById("map"), {
+      center: ivrySurSeine,
+      zoom: 14, // Niveau de zoom, vous pouvez ajuster cette valeur selon vos préférences
+    });
+    const marker = new google.maps.Marker({
+      position: ivrySurSeine,
+      map: map,
+      title: "Ivry-sur-Seine",
+    });
+  }
+</script> */}
