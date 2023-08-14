@@ -18,9 +18,9 @@
 										<div class="card-group vgr-cards col-md-7 newsletter-text">
 											<div class="card" id="Compositeur Collectif">
 													<div class="card-img-body">
-														<img src="../assets/img/videgrenier.jpg"  class="responsive-image p-4  ">
+														<img src="../assets/img/videgrenier.jpg"  class="responsive-image ">
 													</div>
-													<div class="">
+													<div class="card-body">
 														<h4 class="card-title newsletter-title">Vide Grenier de la Ferme de Contin </h4>
 														<p class="mt-2"><i>Samedi 23 Septembre 2023 - de 9h à 18h</i></p>
 														<p class="card-text">À l’occasion de ses 2 ans de présence à la ferme de Contin de Paray-Vieille-Poste, la MEUP vous invite à participer à un vide grenier (150 exposants), le samedi 23 septembre 2023.</p>
