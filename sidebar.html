@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.sidenav {
+  width: 20%;
+  /* position: fixed; */
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+ 
+  border-radius: 10px;
+  
+  margin-left: 73%;
+
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px; 
+}
+
+.main {
+   /* Same width as the sidebar + left position in px */
+  font-size: 28px; 
+  padding: 0px 10px;
+  width: 70%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    section{
+    display: flex;
+    flex-wrap: wrap;
+}
+  .sidenav {
+    width: 70%;
+    position: relative;
+   
+   
+  
+    
+  }
+  
+  .main {
+  
+    width: 100%; /* Ajustez la largeur du contenu principal pour occuper tout l'espace disponible */
+    margin-bottom: 40px; /* Ajoutez de la marge en bas pour créer un espace entre le contenu principal et le sidebar */
+  }
+}
+
+
+
+
+
+</style>
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top header" style="background-image: url('assets/img/Bannière.jpg')">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html"><i class="fa-solid fa-house " style="color: black; font-size: 24px;"></i></a></li>
+          <li><a href="évènement.html">Évènements</a></li>
+          <li><a href="index.html#activités">Activités</a></li>
+          <li class="nav-item dropdown"><a href="Projets.html">Nos Projets</a>
+            <ul class="dropdown-menu dropdown-menu-end  justify-content-center" aria-labelledby="navbarDropdown" id="dropdownMenu" style=" width: 330px; left: 25px; right: 0; border:outset;">
+              <li><a class="dropdown-item" href="Projets.html#Restaurant Café">Le Restaurant Café coopératif de <br> La MEUP</a></li>
+              <li><a class="dropdown-item" href="Projets.html#Compositeur Collectif">Le Composteur collectif et son Jardin <br> créatif  & productif</a></li>
+              <li><a class="dropdown-item" href="Projets.html#La Bricothèque & La Grainothèque">La Bricothèque & la Grainothèque</a></li>
+          </ul>
+          </li>
+          <li><a href="About.html">Historique</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+
+  </header><!-- Fin Header -->
+
+   <section>
+    <div class="main ">
+        <h2>Auto Sidebar</h2>
+        <p>This sidebar is as tall as its content (the links), and is always shown.</p>
+        <p>Scroll down the page to see the result.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      </div> 
+      
+        <div class="sidenav ">
+            <div class="bubble mt-5 " >
+                <h4 class="newsletter-title pl-0">Nos activités</h4>
+                <ul class="testimonial">
+                    <a href="CAE.html"><li>Rejoindre la CAE (coopérative d’activité  et d’emploi) </li></a>
+                    <a href="https://www.terres-efc-idf.org/"><li>Rejoindre Terres EFC Île-de-France </li></a>
+                    <a href="https://www.cigales-idf.asso.fr/"><li>Rejoindre les clubs Cigales </li></a>
+                    <a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="pb-5"><li>Rejoindre l'association de la MEUP</li></a>
+                </ul>
+            </div>
+
+            <div class="bubble">
+                <h4 class="newsletter-title">Abonnez-vous à  la newsletter</h4>
+                <p class="p">
+                    Restez informé(e) et ne manquez aucune mise à jour.
+                    Inscrivez-vous à notre newsletter.
+                </p>
+    
+                <a href="https://08fujsqclz6.typeform.com/to/ov4W5RM0?typeform-source=lameup.mystrikingly.com" class="rejoindre-link">S'inscrire</a>
+                                                    
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+	  <!-- ======= Footer ======= -->
+      <footer id="footer">
+        <div class="container">
+        <div class="col-12 text-center py-4 text-muted">
+            &copy; La MEUP
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            Copyright
+        </div>
+        </div>
+    </footer><!-- End  Footer -->
+    <script src="sidebar.js"></script>
+</body>
+</html>

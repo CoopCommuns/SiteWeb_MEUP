@@ -7,13 +7,7 @@
 .merriweather {
 	font-family: 'Merriweather', serif;
 }
-.asso{
-	background-image: url('../img/assoc-PhotoRoom.png');
-	background-size: cover; 
-	background-position: center; 
-	height: 100px;
-	width: 50px;
-}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -96,11 +90,11 @@
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links {
-	padding-right: 15px;
+	padding-left: 500px;
   }
   .header-social-links a {
 	color: #6f6f6f;
-	padding-left: 6px;
+	padding-left: 15px;
 	display: inline-block;
 	line-height: 0px;
 	transition: 0.3s;
@@ -116,11 +110,15 @@
   /**
   * Desktop Navigation 
   */
+  .header{
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
   .navbar {
-	padding: 0;
+	padding: 15px 0 0 0;
   }
   .navbar ul {
-	margin: 0;
+	margin: 0 10 0px;
 	padding-left: 40%; 
 	display: flex;
 	list-style: none;
@@ -128,15 +126,15 @@
   }
   .navbar li {
 	position: relative;
-	padding: 10px 0 10px 20px;
+	padding: 10px 0 10px 2px;
   }
   .navbar a, .navbar a:focus {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	font-family: "Raleway", sans-serif;
-	font-size: 14px;
-	padding-left: 25px; 
+	font-size: 16px;
+	padding-left: 20px; 
 	font-weight: 500;
 	color: rgb(240, 244, 245);
 	white-space: nowrap;
@@ -315,11 +313,14 @@
 	padding: 20px 50px 0px  20px;
 	font-size: 15px;
 }
-
+/*===== side bar ======*/
 .testimonial{
 	color: #5e5e5e;
 	font-family: 'arial';
 	font-size: 14px;
+}
+.fixed-content .testimonial a{
+	text-decoration: none;
 }
 
 .bubble-message, .bubble, .newsletter-text {
@@ -337,21 +338,24 @@
 	width: 100%;
 	margin-top: 30px;
   }
+
+  
   .bubble-message{
 	width: 400px; 
 	padding-left: 30px;
 	height: 100px;
   }
   .bubble{
-	padding: 20px 50px 5px  20px;
-	margin-left: 20px;
-	width: 90%; 
+	padding: 10px 10px 5px  10px;
+	
+	width: 100%; 
   }
   .bubble ul li {
 	color: #5e5e5e;
-	font-size: 17px;
+	font-size: 18px;
 	
   }
+  
   .bubble .p {
 	color: #5e5e5e;
 	font-size: 17px;
@@ -460,6 +464,8 @@
 	color: #fff;
 	text-decoration: none;
   }
+  
+
 
 
   button[type=submit] {
@@ -557,7 +563,7 @@ footer{
     width: 330px;
     max-width: 330px;
 	padding-left: 26px;
-    margin-top: 200px;
+    margin-top: 100px;
 	margin-left: 30px;
 }
 
@@ -737,16 +743,8 @@ i{
      
 }
 
-/* Media query pour ajuster les styles sur les petits écrans */
-@media screen and (max-width: 767px) {
-    .card-img-body, .card-body {
-        flex-basis: 100%; /* Sur les petits écrans, occuper 100% de la largeur */
-    }
-}
 
-.custom-icon-color {
-	color:  #ea923f; /* Remplacez cette couleur par la couleur que vous souhaitez */
-}
+  
 
 /*--------------------------------------------------------------
 # Footer
@@ -765,5 +763,7 @@ i{
   #footer .credits a {
 	color: #34b7a7;
   }
-
-
+  .social .img-footer img {
+    max-width: 50px; 
+    max-height: 50px; 
+}

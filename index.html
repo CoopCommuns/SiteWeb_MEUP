@@ -30,6 +30,78 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	
 	<title>MEUP</title>		
+	<style>
+
+		.sidenav {
+		  width: 20%;
+		  /* position: fixed; */
+		  z-index: 1;
+		  top: 20px;
+		  
+		 
+		  border-radius: 10px;
+		  
+		  margin-left: 93%;
+		
+		}
+		
+		.sidenav a {
+		  text-decoration: none;
+		  font-size: 16px; 
+		}
+		
+		.main {
+		   /* Same width as the sidebar + left position in px */
+		  font-size: 16px; 
+		  padding: 0px 10px;
+		  width: 70%;
+		  background-color: #fff;
+		  border-radius: 20px;
+		  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		  margin: 20px;
+		}
+		
+		
+		@media screen and (max-width: 768px) {
+			section{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		  .sidenav {
+			width: 75%;
+			position: relative;
+			padding-left: 70px;
+		   
+		  
+			
+		  }
+		  
+		  .main {
+		  
+			width: 95%; /* Ajustez la largeur du contenu principal pour occuper tout l'espace disponible */
+			margin-bottom: 40px; /* Ajoutez de la marge en bas pour créer un espace entre le contenu principal et le sidebar */
+		  }
+		  .rejoindre-link{
+			margin-right: 500px;
+		}
+		.main img{
+			width: 465px;
+			border-radius: 0;
+			height: 300px;
+		}
+		.main .rejoindre-link{
+			padding: 8px 50px;
+			margin-left: 500px;
+			font-size: 14px;
+			white-space: nowrap;
+		}
+		}
+		
+		
+		
+		
+		</style>
+	
 </head>
 <body>
 
@@ -69,6 +141,66 @@
 	<div class="slider-item js-fullheight" style="background-image:url(assets/img/Carousel/GRENIER.jpg);"></div></div>
 </div> <!-- Fin carrousel -->
 
+<section>
+    <div class="main ">
+        <div class="row align-items-center event-block no-gutters  mb-5 responsive-image ">
+			<div class="col-lg-5 col-sm-12 ">
+				<div class="mt-3">
+					<img src="assets/img/videgrenier.jpg" alt="">
+					
+				</div>
+			</div>
+			<div class="col-lg-7 col-sm-12">
+				<div class="">
+					<h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500 newsletter-title card-title">Vide Grenier de la ferme de cotin</h5>
+					<p class="mt-2"><i>Samedi 23 Septembre 2023 - de 9h à 18h</i></p>
+					<p>À l’occasion de ses 2 ans de présence à la ferme de Contin de Paray-Vieille-Poste, la MEUP vous invite à participer à un vide grenier (150 exposants), le samedi 23 septembre 2023.</p>
+					<p>Les réservations se font exclusivement par la billetterie Helloasso, le prix est fixé à 5 € pour 2 mètres linéaires (maximum 6 mètres linéaires par foyer). A la suite du paiement vous recevrez un mail pour finaliser votre inscription.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="card card-body">
+			<p class="card-text mt-2">
+				Les exposants doivent être des particuliers majeurs, ou des associations à but non lucratif.
+				Les places seront affectées par ordre d’inscription, les numéros d’emplacement transmis au plus tard 24h avant le samedi 23 septembre 2023.
+				Le paiement vaut acceptation du règlement du vide grenier, disponible en pièce jointe (à lire absolument).
+				Lieu : rue de l’église + place de l’église + rue de la ferme dans sa totalité, fin à la rue du potager (cf. zone orange sur le plan ci-dessous) <br> <br>
+				Nombre d’exposants : entre 100 et 150</p>
+											
+		</div>
+
+		<div class=" mt-5"><img src="assets/img/plan du site.jpg" alt="" style="height: auto; width: 100%;"></div>
+		<div class="d-flex justify-content-center "><a href="https://lameup.mystrikingly.com/" class="rejoindre-link mt-5 mb-5">Réservez ici</a></div>						
+		
+      </div> 
+      
+        <div class="sidenav ">
+            <div class="bubble mt-5 " >
+                <h4 class="newsletter-title pl-0">Nos activités</h4>
+                <ul class="testimonial">
+                    <a href="CAE.html"><li>Rejoindre la CAE (coopérative d’activité  et d’emploi) </li></a>
+                    <a href="https://www.terres-efc-idf.org/"><li>Rejoindre Terres EFC Île-de-France </li></a>
+                    <a href="https://www.cigales-idf.asso.fr/"><li>Rejoindre les clubs Cigales </li></a>
+                    <a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="pb-5"><li>Rejoindre l'association de la MEUP</li></a>
+                </ul>
+            </div>
+
+            <div class="bubble">
+                <h4 class="newsletter-title">Abonnez-vous à  la newsletter</h4>
+                <p class="p">
+                    Restez informé(e) et ne manquez aucune mise à jour.
+                    Inscrivez-vous à notre newsletter.
+                </p>
+    
+                <a href="https://08fujsqclz6.typeform.com/to/ov4W5RM0?typeform-source=lameup.mystrikingly.com" class="rejoindre-link">S'inscrire</a>
+                                                    
+            </div>
+        </div>
+
+        
+    </div>
+</section>
 <!-- ======= Hero Section ======= -->
 <section class="section mb-5">
 	<div id="preloader"></div>
@@ -77,7 +209,7 @@
 	<div class=" newsletter-container">
 		<div class="card  border-0 rounded-0">
 			<div class="row ">
-				<div class="card-group vgr-cards col-md-7 newsletter-text">
+				<div class="card-group vgr-cards col-md-7 newsletter-text ">
 					<!-- start event block -->
 					<div class="row align-items-center event-block no-gutters  mb-5 responsive-image ">
 						<div class="col-lg-5 col-sm-12 ">
@@ -87,8 +219,8 @@
 							</div>
 						</div>
 						<div class="col-lg-7 col-sm-12">
-							<div class="padding-60px-lr md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
-								<h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500 newsletter-title card-title">Vide Grénier de la ferme de cotin</h5>
+							<div class="">
+								<h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500 newsletter-title card-title">Vide Grenier de la ferme de cotin</h5>
 								<p class="mt-2"><i>Samedi 23 Septembre 2023 - de 9h à 18h</i></p>
 								<p>À l’occasion de ses 2 ans de présence à la ferme de Contin de Paray-Vieille-Poste, la MEUP vous invite à participer à un vide grenier (150 exposants), le samedi 23 septembre 2023.</p>
 								<p>Les réservations se font exclusivement par la billetterie Helloasso, le prix est fixé à 5 € pour 2 mètres linéaires (maximum 6 mètres linéaires par foyer). A la suite du paiement vous recevrez un mail pour finaliser votre inscription.</p>
@@ -109,7 +241,7 @@
 
 					<div><img src="assets/img/plan du site.jpg" alt="" style="height: 90%; width: 100%;"></div>
 
-					<div class="Rejoindre mt-5" style="margin-left:300px"><a href="https://lameup.mystrikingly.com/" class="rejoindre-link">Réservez ici</a></div>						
+					<div  style="margin-left:300px"><a href="https://lameup.mystrikingly.com/" class="rejoindre-link">Réservez ici</a></div>						
 				</div>
 
 			
@@ -175,6 +307,6 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
-
+	<script src="sidebar.js"></script>
 	</body>
 </html>
