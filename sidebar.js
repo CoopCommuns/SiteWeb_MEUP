@@ -9,9 +9,9 @@ window.addEventListener("scroll", function() {
     if (window.innerWidth >= 768) {
         // Si la largeur de l'écran est supérieure ou égale à 768px, appliquer le positionnement du sidebar
         if (window.scrollY + window.innerHeight >= footer.offsetTop) {
-            sidebar.style.position = "absolute";
+            
             sidebar.style.top = "auto";
-            sidebar.style.bottom = "240px";
+            sidebar.style.bottom = "390px";
             sidebar.style.marginLeft = "75%";
         } else if (window.scrollY >= headerHeight) {
             sidebar.style.position = "fixed";
@@ -22,7 +22,7 @@ window.addEventListener("scroll", function() {
             sidebar.style.position = "relative";
             sidebar.style.top = "0px";
             sidebar.style.bottom = "auto";
-            sidebar.style.marginLeft = "75%";
+            sidebar.style.marginLeft = "5%";
         }
     } else {
         // Si la largeur de l'écran est inférieure à 768px, désactiver le positionnement fixe
