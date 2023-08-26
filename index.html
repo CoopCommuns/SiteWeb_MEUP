@@ -17,100 +17,17 @@
 	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 	
 	<!-- Template Main CSS File -->
-	<!-- <link href="../SiteWeb_MEUP/assets/css/styles.css" rel="stylesheet"> -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="assets/css/styles.css" />
 	<link rel="stylesheet" href="assets/css/card.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
 
 	<!--  Carrousel CSS File -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	
 	<title>MEUP</title>		
-	<style>
-	
-		.sidenav {
-		  width: 20%;
-		  /* position: fixed; */
-		  z-index: 1;
-		  top: 20px;
-		  border-radius: 10px;
-		  margin-left: 99%;
-		  margin-top: 250px;
-		
-		}
-		
-		.sidenav a {
-		  text-decoration: none;
-		  font-size: 16px; 
-		}
-		
-		.main {
-		   /* Same width as the sidebar + left position in px */
-		  font-size: 20px; 
-		  padding: 0px 10px;
-		  width: 70%;
-		  background-color: #fff;
-		  border-radius: 20px;
-		  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-		  margin: 30px;
-		  font-family: 'arial';
-		  color: #5e5e5e;
-		  font-weight: 500;
-		  
-		}
-		
-		
-		@media screen and (max-width: 768px) {
-
-			section{
-			display: flex;
-			flex-wrap: wrap;
-		}
-		  .sidenav {
-			width: 75%;
-			position: relative;
-			padding-left: 80px;
-			margin-top: 10px;
-		  }
-		
-		  .main {
-			overflow: hidden;
-		    margin-left: 13px;
-			width: 95%; 
-			margin-bottom: 40px; 
-		  }
-		  .rejoindre-link{
-			margin-right: 500px;
-		}
-		.main img{
-			width: 465px;
-			border-radius: 0;
-			height: 300px;
-		}
-		.main .rejoindre-link{
-			padding: 8px 50px;
-			margin-left: 500px;
-			font-size: 14px;
-			white-space: nowrap;
-		}
-		.slider-item{
-			
-			background-size: cover; /* Assurez-vous que l'image remplit complètement le conteneur */
-			background-repeat: no-repeat;
-			width: 100%; /* Assurez-vous que le conteneur occupe la largeur de son parent */
-			
-			
-		}
-		}
-		
-		
-		
-		
-		</style>
 	
 </head>
 <body>
@@ -120,7 +37,7 @@
     <div class="container-fluid d-flex justify-content-between align-items-center">
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active" href="index.html"><i class="fa-solid fa-house " style="color: black; font-size: 24px;"></i></a></li>
+          <li><a class="active" href="index.html"><i class="fa-solid fa-house " style="color: black; font-size: 16px;"></i></a></li>
           <li><a href="évènement.html">Évènements</a></li>
           <li><a href="index.html#activités">Activités</a></li>
           <li class="nav-item dropdown"><a href="Projets.html">Nos Projets</a>
@@ -131,7 +48,7 @@
           </ul>
           </li>
           <li><a href="About.html">Historique</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mailto:alifaouza10@gmail.com">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -141,90 +58,112 @@
   </header><!-- Fin Header -->
 
  <!-- =======  Section Carrousel======= -->
-  <div class="home-slider owl-carousel js-fullheight">
-	<div class="slider-item js-fullheight" style="background-image:url(assets/img/Carousel/Mon.jpg); background-size: cover; box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);"></div>
+  <div class="home-slider owl-carousel ">
+	<div class="slider-item js-fullheight w-100" style="background-image:url(assets/img/Carousel/Mon.jpg); background-size: cover; box-sizing: content-box;"></div>
 	
-	<div class="slider-item js-fullheight" style="background-image:url(assets/img/Carousel/compo.jpg); background-size: cover;"></div>
+	<div class="slider-item js-fullheight w-100" style="background-image:url(assets/img/Carousel/compo.jpg); background-size: cover; box-sizing: content-box;"></div>
 
-	<div class="slider-item js-fullheight" style="background-image:url(assets/img/Carousel/ESS.jpg);"></div>
+	<div class="slider-item js-fullheight w-100" style="background-image:url(assets/img/Carousel/ESS.jpg);background-size: cover; box-sizing: content-box;"></div>
 
-	<div class="slider-item js-fullheight" style="background-image:url(assets/img/Carousel/GRENIER.jpg);"></div></div>
+	<div class="slider-item js-fullheight w-100" style="background-image:url(assets/img/Carousel/GRENIER.jpg);background-size: cover; box-sizing: content-box;"></div></div>
 </div> <!-- Fin carrousel -->
 
 <section>
-    <div class="main ">
-        <div class="row align-items-center event-block no-gutters  mb-5 responsive-image ">
-			<div class="col-lg-5 col-sm-12 ">
-				<div class="mt-3">
-					<img src="assets/img/videgrenier.jpg" alt="">
-					
+	<div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+	<div class="section ">
+		<div class="contain newsletter-text">
+			<div class="row align-items-center event-block no-gutters  mb-5 responsive-image ">
+				<div class="col-lg-5 col-sm-12 ">
+					<div class="mt-3">
+						<img src="assets/img/VIGNETTE_VIDE GRENIER.jpg" class="img-fluid rounded">
+						
+					</div>
+				</div>
+				<div class="col-lg-7 col-sm-12">
+					<div class="">
+						<h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500 newsletter-title card-title">Vide Grenier de la ferme de cotin</h5>
+						<p class="mt-2"><i>Samedi 23 Septembre 2023 - de 9h à 18h</i></p>
+						<p>À l’occasion de ses 2 ans de présence à la ferme de Contin de Paray-Vieille-Poste, la MEUP vous invite à participer à un vide grenier (150 exposants), le samedi 23 septembre 2023.</p>
+						<p>Les réservations se font exclusivement par la billetterie Helloasso, le prix est fixé à 5 € pour 2 mètres linéaires (maximum 6 mètres linéaires par foyer). A la suite du paiement vous recevrez un mail pour finaliser votre inscription.</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-7 col-sm-12">
-				<div class="">
-					<h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500 newsletter-title card-title">Vide Grenier de la ferme de cotin</h5>
-					<p class="mt-2"><i>Samedi 23 Septembre 2023 - de 9h à 18h</i></p>
-					<p>À l’occasion de ses 2 ans de présence à la ferme de Contin de Paray-Vieille-Poste, la MEUP vous invite à participer à un vide grenier (150 exposants), le samedi 23 septembre 2023.</p>
-					<p>Les réservations se font exclusivement par la billetterie Helloasso, le prix est fixé à 5 € pour 2 mètres linéaires (maximum 6 mètres linéaires par foyer). A la suite du paiement vous recevrez un mail pour finaliser votre inscription.</p>
-				</div>
+			<div class="card card-body">
+				<p class="card-text mt-2">
+					Les exposants doivent être des particuliers majeurs, ou des associations à but non lucratif.
+					Les places seront affectées par ordre d’inscription, les numéros d’emplacement transmis au plus tard 24h avant le samedi 23 septembre 2023.
+					Le paiement vaut acceptation du règlement du vide grenier, disponible en pièce jointe (à lire absolument).
+					Lieu : rue de l’église + place de l’église + rue de la ferme dans sa totalité, fin à la rue du potager (cf. zone orange sur le plan ci-dessous) <br> <br>
+					Nombre d’exposants : entre 100 et 150</p>
+												
 			</div>
+	
+			<div class=" mt-5"><img src="assets/img/carte.jpg" alt="" style="height: auto; width: 100%;"></div>
+			<div class="d-flex justify-content-center "><a href="https://lameup.mystrikingly.com/" class="rejoindre-link mt-5 mb-5">Réservez ici</a></div>						
+
 		</div>
 
-		<div class="card card-body">
-			<p class="card-text mt-2">
-				Les exposants doivent être des particuliers majeurs, ou des associations à but non lucratif.
-				Les places seront affectées par ordre d’inscription, les numéros d’emplacement transmis au plus tard 24h avant le samedi 23 septembre 2023.
-				Le paiement vaut acceptation du règlement du vide grenier, disponible en pièce jointe (à lire absolument).
-				Lieu : rue de l’église + place de l’église + rue de la ferme dans sa totalité, fin à la rue du potager (cf. zone orange sur le plan ci-dessous) <br> <br>
-				Nombre d’exposants : entre 100 et 150</p>
-											
-		</div>
+		<div class="sidebar">
+			<div class="bubble" id="sidebar-remove">
+				<h4 class="newsletter-title pl-0">Nos activités</h4>
+				<ul>
+					<li><a href="CAE.html" class="newsletter-line">Rejoindre la CAE (coopérative d’activité  et d’emploi)</a></li>
+					<li><a href="https://www.terres-efc-idf.org/" class="newsletter-line">Rejoindre Terres EFC Île-de-France</a></li>
+					<li><a href="https://www.cigales-idf.asso.fr/" class="newsletter-line">Rejoindre les clubs Cigales</a></li>
+					<li><a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="pb-5 newsletter-line">Rejoindre l'association de la MEUP</a></li>
+				</ul>
+			</div>
 
-		<div class=" mt-5"><img src="assets/img/plan_du_site.jpg" alt="" style="height: auto; width: 100%;"></div>
-		<div class="d-flex justify-content-center "><a href="https://lameup.mystrikingly.com/" class="rejoindre-link mt-5 mb-5">Réservez ici</a></div>						
+			<div class="bubble">
+				<h4 class="newsletter-title">Abonnez-vous à la newsletter</h4>
+				<p >
+					Restez informé(e) et ne manquez aucune mise à jour.Inscrivez-vous à notre newsletter.</p>
 		
-      </div> 
-      
-        <div class="sidenav ">
-            <div class="bubble mt-5 " >
-                <h4 class="newsletter-title pl-0">Nos activités</h4>
-                <ul class="testimonial">
-                    <a href="CAE.html"><li>Rejoindre la CAE (coopérative d’activité  et d’emploi) </li></a>
-                    <a href="https://www.terres-efc-idf.org/"><li>Rejoindre Terres EFC Île-de-France </li></a>
-                    <a href="https://www.cigales-idf.asso.fr/"><li>Rejoindre les clubs Cigales </li></a>
-                    <a href="https://www.helloasso.com/associations/association-de-la-maison-de-l-ecologie-urbaine-et-pratique/evenements/adherer-a-l-association-de-la-meup" class="pb-5"><li>Rejoindre l'association de la MEUP</li></a>
-                </ul>
-            </div>
+				<div class=" justify-content-center "><a href="https://08fujsqclz6.typeform.com/to/ov4W5RM0?typeform-source=lameup.mystrikingly.com" class="rejoindre-link ">S'inscrire</a></div>
+													
+			</div>
+		</div>
 
-            <div class="bubble">
-                <h4 class="newsletter-title">Abonnez-vous à  la newsletter</h4>
-                <p class="p">
-                    Restez informé(e) et ne manquez aucune mise à jour.
-                    Inscrivez-vous à notre newsletter.
-                </p>
-    
-                <a href="https://08fujsqclz6.typeform.com/to/ov4W5RM0?typeform-source=lameup.mystrikingly.com" class="rejoindre-link">S'inscrire</a>
-                                                    
-            </div>
-        </div>
-
-        
-    </div>
+	</div>
 </section>
 	
 		  
-		  <!-- ======= Footer ======= -->
-        <footer id="footer">
-            <div class="container">
-            <div class="col-12 text-center py-4 text-muted">
-                &copy; La MEUP
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-                Copyright
-            </div>
-            </div>
-        </footer><!-- End  Footer -->
+	
+       <!-- ======= Footer ======= -->
+<footer id="footer" >
+    <div class="container">
+      <h3>Nos partenaires</h3>
+
+        <div class="social">
+            <ul class="list-unstyled d-flex justify-content-center">
+                <li class="img-footer">
+                    <img src="assets/img/paray.png" alt="Photo 1" class="img">
+                </li>
+                <li class="img-footer">
+                    <img src="assets/img/region-ile-de-france-logo.png" alt="Photo 2">
+                </li>
+                <li class="img-footer">
+                    <img src="assets/img/GOSB.jpg" alt="Photo 3" class="img">
+                </li>
+                <li class="img-footer">
+                    <img src="assets/img/coopcommuns.jpg" alt="Photo 4" class="img">
+                </li>
+            </ul>
+        </div>
+
+		<div class="col-12 text-center py-4 text-muted">
+            &copy; La MEUP
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            Copyright
+        </div>
+    </div>
+</footer>
+<!-- ======= End Footer ======= -->
+
 		  
 		<!-- Vendor JS Files -->
 	<script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -245,6 +184,6 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
-	<script src="sidebar.js"></script>
+	<script src="assets/js/sidebar.js"></script>
 	</body>
 </html>
