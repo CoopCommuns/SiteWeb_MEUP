@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
-  
+.section-top{
+	margin-top: 130px;
+  }
   /*--------------------------------------------------------------
   # Preloader
   --------------------------------------------------------------*/
@@ -19,7 +21,7 @@
 	position: fixed;
 	top: calc(50% - 30px);
 	left: calc(50% - 30px);
-	border: 6px solid hsl(29, 96%, 61%);
+	border: 6px solid #34b7a7;
 	border-top-color: #dcf5f2;
 	border-radius: 50%;
 	width: 60px;
@@ -92,7 +94,7 @@
   # Header Social Links
   --------------------------------------------------------------*/
   .header-social-links {
-	padding-right: 10px; 
+	padding-right: 15px; 
   }
   .header-social-links a {
 	color: #121212;
@@ -140,8 +142,8 @@
 	  content: "";
 	  position: absolute;
 	  width: 0;
-	  height: 2px;
-	  bottom: -5px;
+	  height: 3px;
+	  bottom: -13px;
 	  left: 0;
 	  background-color: #DE7A1E;
 	  visibility: hidden;
@@ -149,7 +151,7 @@
 	  transition: all 0.3s ease-in-out 0s;
 	} 
 	 .navbar{
-	  background-image: url('../img/orange.jpg');
+	  background-image: url('../sidebar/orange.jpg');
 	 }
 	 .header-social-links a {
 	  padding-left: 320px;
@@ -338,7 +340,7 @@
 /*===== side bar ======*/
 
   .bubble{
-	padding: 3px 15px ;
+	padding: 7px 15px ;
 	width: 70%;
 	height: auto;
 	margin:35px 15px 35px 55px;
@@ -384,7 +386,7 @@
 		display: flex;
 	}
 	.contain{
-		flex: 0 1 75%;
+		flex: 0 1 73%;
 	}
 	.sidebar-fixed{
 		position: fixed;
@@ -544,3 +546,4 @@ h3{
 		margin-top: 10px;
 	}
   }
+ 
