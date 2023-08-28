@@ -7,11 +7,11 @@
   }
   
   .table-scroll {
-	max-height: 500px; /* Ajustez la hauteur maximale en fonction de vos besoins */
+	max-height: 500px; 
 	overflow-y: scroll;
   }
   
-  @media (max-width: 768px) { /* Ajustez la valeur de 768px en fonction de vos besoins */
+  @media (max-width: 768px) {
 	.table-responsive {
 	  width: 100%;
 	  overflow-x: auto;
@@ -36,6 +36,7 @@
 	  flex-flow: wrap;
 	  flex: 100%;
 	  margin-bottom: 40px;
+	  margin-top: 20px;
   
 	  &:nth-child(even) .card-img-body {
 		order: 2;
@@ -97,3 +98,33 @@
     flex-basis: 60%;
      
 }
+ 
+/**== evenement  ==**/
+.top{
+	margin-top: 120px;
+}
+.bottom{
+	margin-top: 20%; 
+	margin-bottom: 400px;
+}
+@media only screen and (max-width: 768px) {
+	.top{
+		margin-top: 70px;
+	}
+	.container.space-card{
+		
+		margin-top: 230px;
+		 margin-bottom: 400px;
+		
+	}
+	.bottom{
+		margin-top: 60%; 
+		margin-bottom: 350px;
+	}
+	.card-top{
+		margin-top: 310px;
+	}
+	.card .img-top{
+		height:270px
+	}
+  }
