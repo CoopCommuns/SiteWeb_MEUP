@@ -343,7 +343,7 @@
 	padding: 7px 15px ;
 	width: 70%;
 	height: auto;
-	/* margin:35px 15px 35px 55px; */
+	margin:30px 15px 0 30px;
   }
   
   .bubble p {
@@ -368,7 +368,12 @@
 	font-size: 18px;
 	line-height: 1.4;
  }
-
+ .sidebar, .side {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
 
  @keyframes  sidebar-animation {
 	0%{
@@ -415,16 +420,11 @@
 		top: 200px;
 	 }
 	 .bubble{
-		width: 260px;
-		padding: 5px 5px ;
+		width: 280px;
+		padding: 5px 10px ;
 	  }
  }
- /* @media (max-width:1101px) {
-	.bubble{
-		margin-left: 20px;
-		margin-bottom: 20px;
-	}
- } */
+
 
  /**=== section===**/
 .newsletter-text, .bubble{

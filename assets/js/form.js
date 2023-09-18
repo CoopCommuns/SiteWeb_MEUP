@@ -7,10 +7,10 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     var subject = document.getElementById("subject").value;
     var message = document.getElementsByName("message")[0].value;
 
-    // Construire le lien de messagerie
-    var mailtoLink = "alifaouza10@gmail.com" +
+    // Construire le lien de messagerie avec "mailto:"
+    var mailtoLink = "mailto:alifaouza10@gmail.com" +
         "?subject=" + encodeURIComponent(subject) +
-        "&body=" + encodeURIComponent( message + "\n\n\n Cordialement " + name );
+        "&body=" + encodeURIComponent(message + "\n\n\n Cordialement " + name);
 
     // Ouvrir le lien de messagerie
     window.location.href = mailtoLink;

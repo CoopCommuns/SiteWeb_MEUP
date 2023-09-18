@@ -6,7 +6,7 @@ window.addEventListener("scroll", function() {
    if (window.scrollY >= 700){
       sidebar.classList.add("sidebar-fixed");
 
-      if(window.scrollY >= 1456){
+      if(window.scrollY >= 1556){
          sidebar.classList.add("erase");
          
       }else{
