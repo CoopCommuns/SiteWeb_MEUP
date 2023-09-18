@@ -368,12 +368,7 @@
 	font-size: 18px;
 	line-height: 1.4;
  }
- .sidebar, .side {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-  }
+ 
 
  @keyframes  sidebar-animation {
 	0%{
@@ -387,9 +382,7 @@
  }
  @media (min-width:1099px) {
 	.sidebar-fixed{
-		
 		bottom: 700px;
-		
 	 }
  }
 
@@ -407,7 +400,7 @@
 		top: -100px;
 		right: 2px;
 		z-index: 99;
-		bottom: 500px;
+		bottom: 200px;
 		opacity: 0;
 		animation: sidebar-animation 0.5s forwards ease;
 	 }
@@ -416,13 +409,14 @@
 		display: none;
 	 }
 	 .sidebar-fixed.erase {
-		bottom: 700px;
+		bottom: 500px;
 		top: 200px;
 	 }
 	 .bubble{
 		width: 280px;
-		padding: 5px 10px ;
+		padding: 3px 10px ;
 	  }
+	  
  }
 
 
