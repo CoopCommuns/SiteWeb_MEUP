@@ -343,7 +343,7 @@
 	padding: 7px 15px ;
 	width: 70%;
 	height: auto;
-	margin:35px 15px 35px 55px;
+	/* margin:35px 15px 35px 55px; */
   }
   
   .bubble p {
@@ -380,31 +380,52 @@
 		opacity: 1;
 	}
  }
+ @media (min-width:1099px) {
+	.sidebar-fixed{
+		
+		bottom: 700px;
+		
+	 }
+ }
 
- @media (min-width:765px) {
+ @media (min-width:1100px) {
 	.section{
 		display: flex;
+		width: 100%;
+		position: relative;
 	}
 	.contain{
 		flex: 0 1 73%;
 	}
 	.sidebar-fixed{
 		position: fixed;
-		right: 10px;
+		top: -100px;
+		right: 2px;
 		z-index: 99;
-		bottom: 400px;
+		bottom: 500px;
 		opacity: 0;
 		animation: sidebar-animation 0.5s forwards ease;
 	 }
-	 .erase{
+
+	 .sidebar-fixed.erase .bubble[id='sidebar-remove']{
 		display: none;
 	 }
+	 .sidebar-fixed.erase {
+		bottom: 700px;
+		top: 200px;
+	 }
 	 .bubble{
-		width: 300px;
-		padding: 3px 10px ;
-		/* margin-left: 100px; */
+		width: 260px;
+		padding: 5px 5px ;
 	  }
  }
+ /* @media (max-width:1101px) {
+	.bubble{
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+ } */
+
  /**=== section===**/
 .newsletter-text, .bubble{
 	background-color: #fff;

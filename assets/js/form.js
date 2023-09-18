@@ -8,7 +8,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     var message = document.getElementsByName("message")[0].value;
 
     // Construire le lien de messagerie
-    var mailtoLink = "mailto:meupcoop@gmail.com" +
+    var mailtoLink = "alifaouza10@gmail.com" +
         "?subject=" + encodeURIComponent(subject) +
         "&body=" + encodeURIComponent( message + "\n\n\n Cordialement " + name );
 
